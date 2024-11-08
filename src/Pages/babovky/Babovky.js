@@ -1,4 +1,4 @@
-import recepiesBabovky from '../data_babovky'
+import recepiesBabovky from '../../data/data_babovky'
 
 const Babovky = () => {
 

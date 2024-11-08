@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Babovky from'./Pages/Babovky'
-import Muffiny from './Pages/Muffiny'
-import Cookies from './Pages/Cookies'
-import Home from './Pages/Home'
-import Error from './Pages/Error'
-import SharedLayout from './Pages/SharedLayout'
+import Babovky from'./pages/babovky/Babovky'
+import Muffiny from './pages/muffins/Muffiny'
+import Cookies from './pages/cookies/Cookies'
+import Home from './pages/home/Home'
+import Error from './pages/Error'
+import SharedLayout from './components/layout/SharedLayout'
 
 
 const App = () => {

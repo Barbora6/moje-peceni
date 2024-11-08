@@ -1,4 +1,4 @@
-import recepiesMuffiny from '../data_muffiny'
+import recepiesMuffiny from '../../data/data_muffiny'
 
 const Muffiny = () => {
   return <section>

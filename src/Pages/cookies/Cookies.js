@@ -1,4 +1,4 @@
-import recepiesCookies from '../data_cookies'
+import recepiesCookies from '../../data/data_cookies'
 
 const Cookies = () => {
   return <section>

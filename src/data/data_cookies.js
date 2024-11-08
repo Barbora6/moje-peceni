@@ -1,6 +1,6 @@
-import image13 from './images/image13.jpg'
-import image14 from './images/image14.jpg'
-import image15 from './images/image15.jpg'
+import image13 from '../images/image13.jpg'
+import image14 from '../images/image14.jpg'
+import image15 from '../images/image15.jpg'
 
 const recepiesCookies = [
     {
