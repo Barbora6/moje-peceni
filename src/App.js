@@ -10,6 +10,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import MarbleCake from './pages/marbleCake/MarbleCake'
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<SharedLayout/>}>
         <Route index element={<Home/> }/>
-        <Route path='/babovky' element={<Babovky/>}/>
+        <Route path='/marbleCake' element={<MarbleCake/>}/>
         <Route path='/muffiny' element={<Muffiny/>}/>
         <Route path='/cookies' element={<Cookies/>}/>
         <Route path='*' element={<Error/>}/>
