@@ -1,8 +1,10 @@
 import recepiesCookies from '../../data/data_cookies'
+import OneRecipe from '../OneRecipe'
 
 const Cookies = () => {
   return <section>
      <h2>Vánoční cukroví</h2>
+     <OneRecipe/>
     
      {
            recepiesCookies.map((oneCook) => {

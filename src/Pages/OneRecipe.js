@@ -1,8 +1,11 @@
 import React from 'react'
+import { FaXmark } from "react-icons/fa6";
 
 const OneRecipe = () => {
   return (
-    <div>OneRecipe</div>
+    <div>
+        <FaXmark />
+    </div>
   )
 }
 
