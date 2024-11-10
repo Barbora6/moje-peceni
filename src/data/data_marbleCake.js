@@ -6,7 +6,7 @@ import image5 from '../images/image5.jpg'
 import image6 from '../images/image6.png'
 
 
-const recepiesBabovky = [
+const recepiesMarbleCake = [
     {
         id:1,
         image: image1,
@@ -74,4 +74,4 @@ const recepiesBabovky = [
     },
 ]
 
-export default recepiesBabovky
+export default recepiesMarbleCake

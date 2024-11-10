@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Babovky from'./pages/babovky/Babovky'
+import Babovky from'./pages/marbleCake/MarbleCake'
 import Muffiny from './pages/muffins/Muffiny'
 import Cookies from './pages/cookies/Cookies'
 import Home from './pages/home/Home'

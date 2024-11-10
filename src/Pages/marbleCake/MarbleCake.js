@@ -1,12 +1,12 @@
-import recepiesBabovky from '../../data/data_babovky'
+import recepiesMarbleCake from '../../data/data_marbleCake'
 
-const Babovky = () => {
+const MarbleCake = () => {
 
   return <section>
     <h2>Bábovky</h2>
 
     {
-        recepiesBabovky.map((oneRecept) => {
+        recepiesMarbleCake.map((oneRecept) => {
             const{id, image, title, description1, description2, description3, difficulty, time} = oneRecept
             
         return <div key={id}>
@@ -26,4 +26,4 @@ const Babovky = () => {
 
 }
 
-export default Babovky
+export default MarbleCake
