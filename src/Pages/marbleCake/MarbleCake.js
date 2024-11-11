@@ -11,8 +11,8 @@ const MarbleCake = () => {
             
         return <div key={id}>
             <h2>{title}</h2>
-            <img src={image} alt="" />
-            <p>{description1}</p>
+            <img src={`pictures/${image}`} alt="" />
+            <div dangerouslySetInnerHTML={{__html:description1}}/>
             <p>{description2}</p>
             <p>{description3}</p>
             <p>{difficulty}</p>
