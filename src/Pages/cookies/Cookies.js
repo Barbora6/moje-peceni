@@ -13,7 +13,6 @@ const handleArticleClick = (article) => {
   console.log(article);
   }
 
-
   return <section>
      <h2>Vánoční cukroví</h2>
           
@@ -23,16 +22,16 @@ const handleArticleClick = (article) => {
     
             return <article key={id} onClick={() => handleArticleClick(oneCook)}>
               <h2>{title}</h2>
-              <img src={image} alt="" />
+              <img src={`pictures/${image}`} alt="" />
+              <div dangerouslySetInnerHTML={{__html:description1}}/>
               <p>{description1}</p>
-              <p>{description2}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
+              <a href={`/oneRecipe/${id}`}>Detail:</a>
             </article>
           })
      }
      
-     <OneRecipe show={showRecipe} article={selectedArticle} onClose={() => setShowRecipe(false)}/>
   </section>
 }
 

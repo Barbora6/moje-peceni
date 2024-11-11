@@ -9,7 +9,7 @@ const Muffiny = () => {
             const{id, title, image, description1, description2, description3, difficulty, time} = oneMuffin
             return <div key={id}>
               <h2>{title}</h2>
-              <img src={image} alt="" />
+              <img src={`pictures/${image}`} alt="" />
               <p>{description1}</p>
               <p>{description2}</p>
               <p>{description3}</p>

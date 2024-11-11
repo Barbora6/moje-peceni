@@ -4,6 +4,7 @@ import Muffiny from './pages/muffins/Muffiny'
 import Cookies from './pages/cookies/Cookies'
 import Home from './pages/home/Home'
 import Error from './pages/Error'
+import OneRecipe from './pages/OneRecipe'
 import SharedLayout from './components/layout/SharedLayout'
 import CssBaseline from '@mui/material/CssBaseline';
 import '@fontsource/roboto/300.css';
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/muffiny' element={<Muffiny/>}/>
         <Route path='/cookies' element={<Cookies/>}/>
         <Route path='*' element={<Error/>}/>
+        <Route path='/oneRecipe/:id' element={<OneRecipe/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

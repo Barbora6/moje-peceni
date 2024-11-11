@@ -7,7 +7,7 @@ const recepiesCookies = [
         id:13,
         image: image13,
         title: 'Lískooříšková kolečka s nutellou',
-        description1: 'Obě mouky, cukr a ořechy promíchejte ve větší míse. Přidejte na kousky pokrájené máslo a jemně nastrouhanou pomerančovou kůru. Promíchejte nožem, poté prsty vypracujte drobenku a hmotu spojte v kompaktní těsto. Pracujte rychle, těsto bude mít tendenci měknout. Zabalte ho do fólie a uložte přes noc do ledničky.',
+        description1: '<p>Obě mouky, cukr a ořechy promíchejte ve větší míse. Přidejte na kousky pokrájené máslo a jemně nastrouhanou pomerančovou kůru. Promíchejte nožem, poté prsty vypracujte drobenku a hmotu spojte v kompaktní těsto. Pracujte rychle, těsto bude mít tendenci měknout. Zabalte ho do fólie a uložte přes noc do ledničky.',
         description2: 'Na lehce pomoučněné pracovní ploše vyválejte těsto na plát silný asi 5 mm. Vykrajujte tvary, polovině z nich vykrojte i středy, skládejte je na plech vyložený pečicím papírem a pečte v troubě předehřáté na 170 °C, asi 15 minut. Nechte zcela vychladnout, slepujte nutellou, skládejte do krabice a uložte do chladu.',
         difficulty: 'snadné',
         time: 20,

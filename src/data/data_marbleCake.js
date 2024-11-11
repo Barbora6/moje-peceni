@@ -9,11 +9,9 @@ import image6 from '../images/image6.jpg'
 const recepiesMarbleCake = [
     {
         id:1,
-        image: image1,
+        image: 'image1.jpg',
         title: 'Citronovo-pomerančová bábovka',
-        description1: 'Ve velké míse smíchejte mouku, prášek do pečiva, sůl, cukr a lístky z tymiánu. V misce prošlehejte vejce s olejem, mlékem a citrusovou kůrou. Tekutou směs vmíchejte do sypké, postačí vařečkou.',
-        description2: 'Bábovkovou formu důkladně vymažte máslem a vysypte moukou. Do formy nalijte těsto a bábovku dejte péct do trouby předehřáté na 180 °C, asi 45 minut. Doba pečení závisí na velikosti formy a na jejím materiálu jinak se peče v silikonu, jinak v litině. Propečení vyzkoušejte pomocí špejle.',
-        description3: 'Hotovou bábovku ještě zatepla vyklopte z formy. Pokud to nepůjde samo, přehoďte přes horkou formu mokrou utěrku. Bábovku nechte vychladnout. Mezitím umíchejte polevu. Cukr prosejte přes jemné sítko do mísy, promíchejte ho s horkou vodou a šťávou z citrusů. Podle potřeby přidejte tekutiny, poleva by měla být hustá, ale stále tekutá. Bábovku dejte na servírovací podnos, zalijte polevou, ozdobte kandovaným ovocem',
+        description1: '<p>Ve velké míse smíchejte mouku, prášek do pečiva, sůl, cukr a lístky z tymiánu. V misce prošlehejte vejce s olejem, mlékem a citrusovou kůrou. Tekutou směs vmíchejte do sypké, postačí vařečkou.</p><p>Bábovkovou formu důkladně vymažte máslem a vysypte moukou. Do formy nalijte těsto a bábovku dejte péct do trouby předehřáté na 180 °C, asi 45 minut. Doba pečení závisí na velikosti formy a na jejím materiálu jinak se peče v silikonu, jinak v litině. Propečení vyzkoušejte pomocí špejle.</p><p>Hotovou bábovku ještě zatepla vyklopte z formy. Pokud to nepůjde samo, přehoďte přes horkou formu mokrou utěrku. Bábovku nechte vychladnout. Mezitím umíchejte polevu. Cukr prosejte přes jemné sítko do mísy, promíchejte ho s horkou vodou a šťávou z citrusů. Podle potřeby přidejte tekutiny, poleva by měla být hustá, ale stále tekutá. Bábovku dejte na servírovací podnos, zalijte polevou, ozdobte kandovaným ovocem</p>',
         difficulty: 'snadné',
         time: 30,
     },
