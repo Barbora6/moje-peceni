@@ -18,13 +18,13 @@ const handleArticleClick = (article) => {
           
      {
            recepiesCookies.map((oneCook) => {
-            const{id, title, image, description1, description2, difficulty, time } = oneCook
+            const{id, title, image, description, difficulty, time } = oneCook
     
             return <article key={id} onClick={() => handleArticleClick(oneCook)}>
               <h2>{title}</h2>
               <img src={`pictures/${image}`} alt="" />
               <div dangerouslySetInnerHTML={{__html:description1}}/>
-              <p>{description1}</p>
+              <p>{description}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
               <a href={`/oneRecipe/${id}`}>Detail:</a>
