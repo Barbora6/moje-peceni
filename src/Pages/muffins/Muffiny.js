@@ -1,5 +1,7 @@
 import recepiesMuffiny from '../../data/data_muffiny'
 import { useState } from 'react'
+import { Box } from '@mui/system'
+import { Card, CardContent, CardMedia, CardActions, Typography } from '@mui/material'
 
 const Muffiny = () => {
 
@@ -11,24 +13,35 @@ const handleArticleClick = (article) => {
   setShowRecipe(true)
   }
 
-  return <section>
-      <h2>Muffiny</h2>
+  return <Box Width='1800px' display='flex' justifyContent='center' alignItems='center' flexWrap='wrap'>
 
       {
         recepiesMuffiny.map((oneMuffin) => {
-            const{id, title, image, description, difficulty, time} = oneMuffin
+            const{id, title, image} = oneMuffin
             
             return <article key={id} onClick={() => handleArticleClick(oneMuffin)}>
-            <h2>{title}</h2>
-            <img src={`pictures/${image}`} alt="" />
-            <div dangerouslySetInnerHTML={{__html:description}}/>
-            <p>{difficulty}</p>
-            <p>{time}</p>
-            <a href={`/OneRecipe/${id}`}>Detail:</a>
-          </article>
-        })
+              <Box>
+                <Card>
+                  <CardContent>
+                  <Typography gutterBottom variant='h6' component='div'>{title}</Typography>
+                  <CardMedia
+                          component='img'
+                          height='240px'
+                          width='350px'
+                          image={`pictures/${image}`}
+                          >
+                  </CardMedia>
+                  <CardActions>
+                    <a href={`/OneRecipe/${id}`}>Detail:</a>
+                  </CardActions>
+                  </CardContent>
+                </Card>
+              </Box>
+            </article>
+          })
+
       }
-  </section>
+  </Box>
 }
 
 export default Muffiny
