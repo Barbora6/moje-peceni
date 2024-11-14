@@ -1,4 +1,4 @@
-import CloseIcon from '@mui/icons-material/Close';
+// import CloseIcon from '@mui/icons-material/Close';
 // import { FaXmark } from "react-icons/fa6";
 // import { Box, Card, Stack, CardContent, CardMedia, Typography, IconButton} from '@mui/material';
 import recepiesCookies from '../data/data_cookies'
@@ -20,7 +20,6 @@ const OneRecipe = () => {
               <h2>{title}</h2>
               <img src={`pictures/${image}`} alt="" />
               <div dangerouslySetInnerHTML={{__html:description}}/>
-              <p>{description}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
           </article>
