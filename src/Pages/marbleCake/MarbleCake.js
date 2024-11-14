@@ -23,7 +23,6 @@ const handleArticleClick = (article) => {
             <h2>{title}</h2>
             <img src={`pictures/${image}`} alt="" />
             <div dangerouslySetInnerHTML={{__html:description}}/>
-            <p>{description}</p>
             <p>{difficulty}</p>
             <p>{time}</p>
             <a href={`/OneRecipe/${id}`}>Detail:</a>
