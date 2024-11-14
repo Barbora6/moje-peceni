@@ -1,5 +1,4 @@
 import recepiesCookies from '../../data/data_cookies'
-import OneRecipe from '../OneRecipe'
 import { useState } from 'react'
 
 const Cookies = () => {
