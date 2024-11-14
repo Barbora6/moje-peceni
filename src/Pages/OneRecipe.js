@@ -1,6 +1,6 @@
 import CloseIcon from '@mui/icons-material/Close';
 // import { FaXmark } from "react-icons/fa6";
-import { Box, Card, Stack, CardContent, CardMedia, Typography, IconButton} from '@mui/material';
+// import { Box, Card, Stack, CardContent, CardMedia, Typography, IconButton} from '@mui/material';
 import recepiesCookies from '../data/data_cookies'
 import {useParams } from "react-router-dom";
 
@@ -13,14 +13,14 @@ const OneRecipe = () => {
   })
 
   console.log(data)
-  const{title, image, description1, description2, difficulty, time } = data  
+  const{title, image, description, difficulty, time } = data  
 
   return <>
           <article key={id}>
               <h2>{title}</h2>
               <img src={`pictures/${image}`} alt="" />
-              <div dangerouslySetInnerHTML={{__html:description1}}/>
-              <p>{description1}</p>
+              <div dangerouslySetInnerHTML={{__html:description}}/>
+              <p>{description}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
           </article>

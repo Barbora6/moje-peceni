@@ -26,7 +26,7 @@ const App = () => {
         <Route path='/muffiny' element={<Muffiny/>}/>
         <Route path='/cookies' element={<Cookies/>}/>
         <Route path='*' element={<Error/>}/>
-        <Route path='/oneRecipe/:id' element={<OneRecipe/>}/>
+        <Route path='/OneRecipe/:id' element={<OneRecipe/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

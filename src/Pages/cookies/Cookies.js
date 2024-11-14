@@ -27,7 +27,7 @@ const handleArticleClick = (article) => {
               <p>{description}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
-              <a href={`/oneRecipe/${id}`}>Detail:</a>
+              <a href={`/OneRecipe/${id}`}>Detail:</a>
             </article>
           })
      }
