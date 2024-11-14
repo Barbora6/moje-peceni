@@ -23,7 +23,7 @@ const handleArticleClick = (article) => {
             return <article key={id} onClick={() => handleArticleClick(oneCook)}>
               <h2>{title}</h2>
               <img src={`pictures/${image}`} alt="" />
-              <div dangerouslySetInnerHTML={{__html:description1}}/>
+              <div dangerouslySetInnerHTML={{__html:description}}/>
               <p>{description}</p>
               <p>{difficulty}</p>
               <p>{time}</p>
