@@ -50,6 +50,26 @@ const recepiesCookies = [
     },
 
     {
+        id:17,
+        image: 'image17.jpg',
+        title: 'Křupavé mandlové sušenky',
+        description: '<p>Do mísy robotu dejte bílek se špetkou soli a našlehejte ho do polotuha. Přisypte moučkový cukr a ušlehejte lesklou, pevnou hmotu. Vmíchejte mleté mandle, citronovou kůru a už jen lžící promíchejte.</p><p>Do menší misky nasypte krystalový cukr. Mokrýma rukama tvořte kuličky velké asi jako vlašský ořech, obalte je v krystalu a skládejte na plech vyložený pečicím papírem. Na každou kuličku položte mandli a přimáčkněte ji, kuličky se trochu zploští a některé popraskají, což není na škodu. Připravené sušenky nechte na plechu alespoň 12 hodin schnout při pokojové teplotě.</p><p>Sušenky pečte v troubě předehřáté na 180 °C, asi 10 minut. Měly by lehce zrůžovět. Nechte je vychladnout a skladujte v uzavíratelné krabici.</p>',
+        // rawMaterials: na 1 plech, 1 ks bílek, 1 špetka soli, 140 g moučkový cukr, 170 g mleté mandle, citronová kůra z 1 citronu, cukr krystal na obalení, mandle na zdobení,
+        difficulty: 'snadné',
+        time: 30,
+    },
+
+    {
+        id:18,
+        image: 'image18.jpg',
+        title: 'Křupavé mandlové sušenky',
+        description: '<p>Do mísy robotu dejte bílek se špetkou soli a našlehejte ho do polotuha. Přisypte moučkový cukr a ušlehejte lesklou, pevnou hmotu. Vmíchejte mleté mandle, citronovou kůru a už jen lžící promíchejte.</p><p>Do menší misky nasypte krystalový cukr. Mokrýma rukama tvořte kuličky velké asi jako vlašský ořech, obalte je v krystalu a skládejte na plech vyložený pečicím papírem. Na každou kuličku položte mandli a přimáčkněte ji, kuličky se trochu zploští a některé popraskají, což není na škodu. Připravené sušenky nechte na plechu alespoň 12 hodin schnout při pokojové teplotě.</p><p>Sušenky pečte v troubě předehřáté na 180 °C, asi 10 minut. Měly by lehce zrůžovět. Nechte je vychladnout a skladujte v uzavíratelné krabici.</p>',
+        // rawMaterials: na 1 plech, 1 ks bílek, 1 špetka soli, 140 g moučkový cukr, 170 g mleté mandle, citronová kůra z 1 citronu, cukr krystal na obalení, mandle na zdobení,
+        difficulty: 'snadné',
+        time: 30,
+    },
+
+    {
         id:18,
         image: 'image18.jpg',
         title: 'Křupavé mandlové sušenky',

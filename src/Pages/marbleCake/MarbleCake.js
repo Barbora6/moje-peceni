@@ -1,6 +1,6 @@
 import recepiesMarbleCake from '../../data/data_marbleCake'
 import { useState } from 'react'
-import { Stack, ImageList, ImageListItem, Box, ImageListItemBar, CardActions } from '@mui/material'
+import { Stack, ImageList, ImageListItem, Box, ImageListItemBar } from '@mui/material'
 
 
 const MarbleCake = () => {
