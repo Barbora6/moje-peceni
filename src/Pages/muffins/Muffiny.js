@@ -1,7 +1,7 @@
 import recepiesMuffiny from '../../data/data_muffiny'
 import { useState } from 'react'
-import { Box } from '@mui/system'
-import { Card, CardContent, CardMedia, CardActions, Typography } from '@mui/material'
+import { Stack, ImageList, Typography } from '@mui/material'
+import RecipeBox from '../../components/layout/RecipeBox'
 
 const Muffiny = () => {
 
@@ -13,35 +13,21 @@ const handleArticleClick = (article) => {
   setShowRecipe(true)
   }
 
-  return <Box Width='1800px' display='flex' justifyContent='center' alignItems='center' flexWrap='wrap'>
-
-      {
-        recepiesMuffiny.map((oneMuffin) => {
-            const{id, title, image} = oneMuffin
-            
-            return <article key={id} onClick={() => handleArticleClick(oneMuffin)}>
-              <Box>
-                <Card>
-                  <CardContent>
-                  <Typography gutterBottom variant='h6' component='div'>{title}</Typography>
-                  <CardMedia
-                          component='img'
-                          height='240px'
-                          width='350px'
-                          image={`pictures/${image}`}
-                          >
-                  </CardMedia>
-                  <CardActions>
-                    <a href={`/OneRecipe/${id}`}>Detail:</a>
-                  </CardActions>
-                  </CardContent>
-                </Card>
-              </Box>
-            </article>
-          })
-
-      }
-  </Box>
+  return <Stack spacing={4} mt={4}>
+    <Typography variant='h4'>Muffiny</Typography>
+    <ImageList
+        variant='masonry'
+        cols={4}
+        rowHeight={240}
+        gap={12}
+    >
+        {
+            recepiesMuffiny.map((item) => {
+              return <RecipeBox key={item.id} {...item}/>
+            }          
+          )}
+    </ImageList>
+  </Stack>
 }
 
 export default Muffiny

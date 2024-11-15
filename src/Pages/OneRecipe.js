@@ -18,7 +18,7 @@ const OneRecipe = () => {
   return <>
           <article key={id}>
               <h2>{title}</h2>
-              <img src={`pictures/${image}`} alt="" />
+              <img src={`/pictures/${image}`} alt="" />
               <div dangerouslySetInnerHTML={{__html:description}}/>
               <p>{difficulty}</p>
               <p>{time}</p>
