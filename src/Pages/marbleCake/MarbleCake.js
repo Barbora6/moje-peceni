@@ -1,5 +1,7 @@
 import recepiesMarbleCake from '../../data/data_marbleCake'
 import { useState } from 'react'
+import { Stack, ImageList, ImageListItem, Box, ImageListItemBar, CardActions } from '@mui/material'
+
 
 const MarbleCake = () => {
 
@@ -12,27 +14,31 @@ const handleArticleClick = (article) => {
   }
 
 
-  return <section>
-    <h2>Bábovky</h2>
+  return <Stack spacing={4}>
+    <Box sx={{width:1200, height: 550, overflowY:'scroll'}}>
+    <ImageList
+        variant='masonry'
+        cols={4}
+        rowHeight={224}
+        gap={8}
+    >
+        {
+            recepiesMarbleCake.map((item) => {
+              return <ImageListItem key={item.id} onClick={() => handleArticleClick(item)}>
+                    <img 
+                    src={`pictures/${item.image}`} 
+                    alt='' 
+                    loading='lazy' />
+                    <ImageListItemBar title={item.title}/>
+                    </ImageListItem>
+            }          
+          )}
+    </ImageList>
+</Box>
 
-    {
-        recepiesMarbleCake.map((oneRecipe) => {
-            const{id, image, title, description, difficulty, time} = oneRecipe
-            
-            return <article key={id} onClick={() => handleArticleClick(oneRecipe)}>
-            <h2>{title}</h2>
-            <img src={`pictures/${image}`} alt="" />
-            <div dangerouslySetInnerHTML={{__html:description}}/>
-            <p>{difficulty}</p>
-            <p>{time}</p>
-            <a href={`/OneRecipe/${id}`}>Detail:</a>
-          </article>
-        })
-
-    }
-
-  </section>
+  </Stack>
 
 }
 
 export default MarbleCake
+

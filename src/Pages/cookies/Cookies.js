@@ -13,7 +13,7 @@ const handleArticleClick = (article) => {
   console.log(article);
   }
 
-  return <Box Width='2500px' display='flex' justifyContent='center' alignItems='center' flexWrap='wrap'>
+  return <Box Width='1200px' display='flex' justifyContent='center' alignItems='center' flexWrap='wrap'>
 
      {
            recepiesCookies.map((oneCook) => {
@@ -29,7 +29,7 @@ const handleArticleClick = (article) => {
                           height='240'
                           width='350'
                           image= {`pictures/${image}`}>
-                  </CardMedia>
+                          </CardMedia>
                            {/* <Typography variant='body2' color='text.secondary'><div dangerouslySetInnerHTML={{__html:description}}/></Typography> */}
                           {/* <Typography variant='body2' color='text.secondary'>Čas přípravy: {time} minut</Typography> */}
                           <CardActions>
@@ -40,7 +40,7 @@ const handleArticleClick = (article) => {
               </Box>
             </article>
           })
-     }
+}
   
   </Box>
 }
