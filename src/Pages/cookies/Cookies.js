@@ -1,6 +1,7 @@
 import recepiesCookies from '../../data/data_cookies'
 import { useState } from 'react'
-import { Stack, ImageList, ImageListItem, Box, ImageListItemBar } from '@mui/material'
+import { Stack, ImageList, Box } from '@mui/material'
+import RecipeBox from '../../components/layout/RecipeBox'
 
 const Cookies = () => {
 
@@ -22,16 +23,8 @@ const handleArticleClick = (article) => {
   >
       {
           recepiesCookies.map((item) => {
-            return <ImageListItem key={item.id} onClick={() => handleArticleClick(item)}>
-                  <img 
-                  src={`pictures/${item.image}`} 
-                  alt='' 
-                  loading='lazy' />
-                  <ImageListItemBar title={item.title}/>
-                  </ImageListItem>
-                  // <CardActions>
-                  // <a href={`/OneRecipe/${id}`}>Detail:</a>
-                  // </CardActions>
+            return <RecipeBox key={item.id} {...item}/>
+        
           }          
         )}
   </ImageList>

@@ -7,7 +7,7 @@ const SharedLayout = () => {
   return <>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-      <Container maxWidth='md'>
+      <Container maxWidth='lg' disableGutters>
         <Toolbar>
             <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}> MojePečení
           </Typography>
@@ -16,7 +16,7 @@ const SharedLayout = () => {
              </Container>
       </AppBar>
     </Box>
-    <Container maxWidth='md'>
+    <Container maxWidth='lg'>
             <Outlet/>
     </Container>
         <Footer/>  

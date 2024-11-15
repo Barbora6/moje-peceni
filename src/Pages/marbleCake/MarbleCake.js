@@ -1,6 +1,7 @@
 import recepiesMarbleCake from '../../data/data_marbleCake'
 import { useState } from 'react'
-import { Stack, ImageList, ImageListItem, Box, ImageListItemBar } from '@mui/material'
+import { Stack, ImageList, Box } from '@mui/material'
+import RecipeBox from '../../components/layout/RecipeBox'
 
 
 const MarbleCake = () => {
@@ -24,13 +25,7 @@ const handleArticleClick = (article) => {
     >
         {
             recepiesMarbleCake.map((item) => {
-              return <ImageListItem key={item.id} onClick={() => handleArticleClick(item)}>
-                    <img 
-                    src={`pictures/${item.image}`} 
-                    alt='' 
-                    loading='lazy' />
-                    <ImageListItemBar title={item.title}/>
-                    </ImageListItem>
+              return <RecipeBox key={item.id} {...item}/>
             }          
           )}
     </ImageList>
