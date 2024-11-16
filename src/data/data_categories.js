@@ -13,6 +13,11 @@ export const data_categories = [
     {
         id:3,
         title:'Vánoční cukroví'
+    },
+
+    {
+        id:4,
+        title: 'Dorty'
     }
 
 ]
