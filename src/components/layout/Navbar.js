@@ -1,14 +1,24 @@
 import { Link, Stack } from '@mui/material'
 import { Link as RouterLink, } from 'react-router-dom'
+import data_categories from '../../data/data_categories'
 
 
 const Navbar = () => {
+
+  
+
   return <header>
     <Stack direction={'row'} gap={4}> 
-      <Link component={RouterLink} to='/' sx={{color:'white'}}>Domů</Link>
-      <Link component={RouterLink} to='/marbleCake' sx={{color:'white'}}>Bábovky</Link>
+    {
+            data_categories.map(({id, title}) => {
+              return <Link key={id} component={RouterLink} to={`/category/${id}`} sx={{color:'white'}}>{title}</Link>
+            }          
+          )}
+
+      {/* <Link component={RouterLink} to='/' sx={{color:'white'}}>Domů</Link>
+      
       <Link component={RouterLink} to='/muffiny' sx={{color:'white'}}>Muffiny</Link>
-      <Link component={RouterLink} to='/cookies' sx={{color:'white'}}>Vánoční cukroví</Link>
+      <Link component={RouterLink} to='/cookies' sx={{color:'white'}}>Vánoční cukroví</Link> */}
     </Stack>
   </header>
 }
