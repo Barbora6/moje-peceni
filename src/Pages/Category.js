@@ -5,10 +5,8 @@ import {RecipeBox} from '../components/layout/RecipeBox'
 import {recepies} from '../data/data_recepies'
 
 
-
 export const Category = () => {
   let { id } = useParams();
-  console.log(id)
   const data = data_categories.find((oneRecipe) =>{
       return oneRecipe.id === parseInt(id)
   })
