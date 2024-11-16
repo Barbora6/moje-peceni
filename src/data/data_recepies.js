@@ -257,6 +257,94 @@ export const recepies = [
         // rawMaterials: Těsto: 330 g bezlepková směs jizerka zlatá, 200 g mleté vlašské ořechy, 150 g moučkový cukr, 250 g máslo změklé, 1 ks žloutek, 1 ks vejce, 2 lžíce kakao, 0,50 lžička skořice - mletá, 100 g čokoláda rozpuštěná, nebo poleva, Vanilkový máslový krém: 3 ks žloutek, 120 g moučkový cukr, 375 g máslo, tuzemák dle chuti,vanilkový lusk dřeň,
         difficulty: 'snadné',
         time: 75,
-    }
+    },
+
+    {
+        id:25,
+        categoryId:3,
+        image: 'image25.jpg',
+        title: 'Linecká srdíčka s ořechy',
+        description: '<p>Mouku prosejte na vál, přidejte moučkový cukr a promíchejte. Do mouky udělejte důlek, rozklepněte do něj vejce a přidejte na menší kousky nakrájené máslo. Citron důkladně omyjte a kůru ostrouhejte na jemném struhadle. Přidejte mleté ořechy a nastrouhanou čokoládu. Všechny suroviny na válu pak rukama rychle, ale důkladně prohněťte. Z hotového těsta udělejte hroudu, zabalte ji do fólie a uložte ji alespoň na hodinu, nejlépe však do druhého dne, do chladničky.</p><p>Z odleželého těsta na pomoučeném vále vykrajujte srdíčka nebo další libovolné tvary. Vykrájené cukroví dejte na plech vyložený pečicím papírem a pečte v troubě předehřáté na 160 °C. Vychladlé pečivo pak ozdobte polevou z čokolády.</p>',
+        // rawMaterials: 500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citronu, 1 špetka sůl, 10 lžíce mleté vlašské ořechy, 200 g hořká čokoláda nastrouhaná, čokoládová poleva,
+        difficulty: 'snadné',
+        time: 40,
+    },
+
+    {
+        id:26,
+        categoryId:3,
+        image: 'image26.jpg',
+        title: 'Išelské dortíčky bez lepku',
+        description: '<p>Troubu předehřejte na 190 °C, 2–3 plechy vyložte pečicím papírem. Všechny suroviny na těsto důkladně zpracujte dohladka. Těsto rozdělte na několik kusů a na moukou poprášeném vále každý ještě obalte v mouce a dotenka rozválejte na sílu asi 3–5 mm. Netlačte na těsto příliš, jen ho zlehka vytahujte do stran. Pokud se lepí, poprašte ho ještě moukou.</p><p>Vykrájejte kolečka a pomocí nože je přeneste na plech. Pečte asi 10–12 minut, dokud nezačnou hnědnout. Vytáhněte je a nechte zcela vychladnout.</p><p>Připravte krém. Ve vodní lázni ušlehejte ručním šlehačem žloutky s cukrem do husté, co nejvíce zahřáté pěny. Vyzkoušejte prstem, a když směs pálí jako horké cappuccino, přendejte ji do mísy robotu. Přilijte tuzemák a za pomalé rychlosti promíchávejte, dokud směs nevychladne, jinak by se na jejím povrchu vytvořil cukernatý škraloup a krém by nebyl hladký. Přidejte máslo a kakao. Chvíli šlehejte pomalu, pak za vyšších otáček, dokud krém není krásně nadýchaný. Bohatě naplňte sušenky.</p><p>Ve vodní lázni nebo v mikrovlnné troubě v krátkých intervalech (30 sekund) rozehřejte polevu. Kolečka v ní namáčejte a rozkládejte na pečicí papír. Ještě než zaschnou, ozdobte je mandlí nebo ořechem. Cukroví uložte do chladu.</p>',
+        // rawMaterials: Těsto: 210 g bezlepková směs jizerka hladká + na poprášení, 70 g moučkový cukr, 20 g kakao, 140 g máslo, 40 g mleté ořechy, 2 špetka skořice - mletá, 300 g čokoládová poleva a ořechy na dokončení, Máslový čokoládový krém: 3 ks žloutky, 120 g moučkový cukr, 375 g máslo - 500 g, tuzemák dle chuti, 4 lžíce kakao - 5,
+        difficulty: 'snadné',
+        time: 70,
+    },
+
+    {
+        id:27,
+        categoryId:3,
+        image: 'image27.jpg',
+        title: 'Sobí sušenky',
+        description: '<p>Máslo utřete s cukrem do pěny, poté přidejte vejce a vanilku a míchejte, dokud se vše nespojí. V míse promíchejte mouku s práškem do pečiva a přisypte k máslové hmotě. Krátce spojte a poté již jen rukama vypracujte pevné těsto. Zabalte ho do fólie a nechte asi 30 minut chladnout v ledničce.</p><p>Troubu předehřejte na 160 °C. Těsto vyválejte po částech na lehce pomoučněné ploše na 5 mm silný plát. Vykrájejte kolečka o průměru 6–8 cm a skládejte je na plech vyložený pečicím papírem. Pečte asi 8 minut.</p><p>Vychladlé sušenky ozdobte čokoládou a lentilkami – na místo nosu kápněte čokoládu a lentilku přimáčkněte.</p>',
+        // rawMaterials: 125 g máslo, 180 g cukr krupice, 1 ks vejce, 1 lžička vanilkový extrakt, 380 g hladká mouka + na pomoučnění, 2 lžička prášek do pečiva, čokoláda + červené lentilky na dozdobení,
+        difficulty: 'snadné',
+        time: 70,
+    },
+
+    {
+        id:28,
+        categoryId:3,
+        image: 'image28.jpg',
+        title: 'Zázvorové sušenky s hvězdami',
+        description: '<p>Mouku, cukr, zázvor, skořici a sůl promíchejte a nasypte na pracovní plochu. Rychle prohněťte prsty s máslem nakrájeným na kostičky. Přidejte med se žloutkem a rychle spojte v těsto. Zabalte do fólie a nechte alespoň 1 hodinu odpočinout v ledničce.</p><p>Troubu zahřejte na 170 °C, plech vyložte pečicím papírem. Studené těsto po částech vyválejte na pláty silné asi půl cm pomocí ozdobného válečku. Vykrajujte zvolené tvary a skládejte je na plech. Pečte asi 10 minut.</p><p>Tip: Pokud neseženete váleček se vzorem, položte na těsto například vyšívanou krajku nebo kousek záclonoviny s hrubší strukturou a válečkem ji do těsta obtiskněte.</p>',
+        // rawMaterials: 250 g hladká mouka, 100 g moučkový cukr, 1 lžička zázvor - mletý sušený, 1 lžička skořice, 1 špetka soli, 125 g máslo studené, 1 lžíce medu, 1 ks žloutek,
+        difficulty: 'snadné',
+        time: 100,
+    },
+
+    {
+        id:29,
+        categoryId:3,
+        image: 'image29.jpg',
+        title: 'Citronové madlenky',
+        description: '<p>Vejce prošlehejte s cukry a medem. Vmíchejte kůru a šťávu z citronu, máslo a mouku s práškem do pečiva. Nechte v chladu aspoň 10 minut.</p><p>Vymažte formičky a naplňte je těstem do 3/4. Přendejte na plech a pečte při 180°C 5 minut, snižte teplotu na 150°C a peče dorůžova 10 minut. Teplé vyklepněte. Pocukrujte. Uchovávejte v suchu, chladu a temnu.</p>',
+        // rawMaterials: 2 ks vejce, 3 lžíce třtinový cukr, 1 ks vanilkový cukr bio, 1 lžíce citronová šťáva, 85 g máslo + na vymazání formiček,
+        difficulty: 'snadné',
+        time: 40,
+    },
+    
+    {
+        id: 30,
+        categoryId:3,
+        image: 'image30.jpg',
+        title: 'Makové koláčky s povidly',
+        description: '<p>Hladkou mouku smícháme v míse s mákem a cukrem. Pokud chceme, můžeme přidat i kakao. Přidáme změklé máslo a žloutky, vypracujeme hladké těsto, které dáme do chladna alespoň na dvě hodiny proležet.</p><p>Z odleželého těsta vyválíme plát na pomoučněném stole nebo na silikonovém válu a tvořítky vykrajujeme kolečka (můžeme i jiné tvary), které klademe na plech, vyložený pečícím papírem. Do poloviny koleček uděláme malým tvořítkem prázdné středy bez těsta.</p><p>Pečeme v předehřáté troubě na 170 stupňů cca 12 minut, dle velikosti a síle cukroví.</p><p>Po zchladnutí plná kolečka mažeme povidly a slepujeme s "děravými". Pokud máme povidla tuhá, naředíme je a promícháme s rumem.</p>',
+        // rawMaterials: Těsto: 220 g hladká mouka, 60 g moučkový cukr, 90 g mák mletý, 150 g máslo, 2 ks žloutky, 1 lžíce kakao dle barvy, není nutné, cca. Dále: švestková povidla,
+        difficulty: 'snadné',
+        time: 240,
+    },
+
+    {
+        id:31,
+        categoryId:3,
+        image: 'image31.jpg',
+        title: 'Vánoční čokoládové sušenky',
+        description: '<p>Smíchejte sypké suroviny - mouku, kakao, mandle, prášek do pečiva, sodu a sůl. Máslo vyšlehejte spolu s cukrem a vejci. Přidejte vanilkový extrakt a poté sypké suroviny. Vše promíchejte, až vznikne těsto. Do těsta opatrně vmíchejte cukrářské zdobení. Poté jej zabalte do folie a nechte na nějakou dobu odpočinout v ledničce.</p><p>Z těsta tvořte kuličky, které umístíte na plech vyložený pečicím papírem. Kuličky rozmáčkněte do podoby placiček.</p><p>Pečte v troubě předehřáté na 180 stupňů zhruba 15 - 20 minut.</p>',
+        // rawMaterials: Na 2 plechy: 200 g hladká mouka, 120 g moučkový cukr, 100 g kakao, 150 g máslo, 2 ks vejce, 150 g mleté mandle, 1 lžička prášek do pečiva, 1 lžička jedlá soda, 1 lžička vanilkový extrakt, 1 špetka sůl, cukrářské zdobení dle fantazie - hvězdičky, vločky...,
+        difficulty: 'snadné',
+        time: 30,
+    },
+
+    {
+        id:32,
+        categoryId:3,
+        image: 'image32.jpg',
+        title: 'Kokosové kuličky',
+        description: '<p>V míse smíchejte pevnou část smetany, strouhaný kokos, med, kokosový olej a mouku.</p><p>Ze směsi vypracujte kompaktní hmotu. Tvarujte kuličky, obalujte je v nastrouhaném kokosu a nechte odležet a přes noc ztuhnout v ledničce.</p>',
+        // rawMaterials: 150 g kokosová smetana, 90 g kokos, 70 g med, 2 lžíce kokosový olej, 2 lžíce kokosová moučka,
+        difficulty: 'snadné',
+        time: 'neuvedeno',
+    },
 ]
 
