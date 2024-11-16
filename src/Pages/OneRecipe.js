@@ -1,18 +1,17 @@
 // import CloseIcon from '@mui/icons-material/Close';
 // import { FaXmark } from "react-icons/fa6";
 // import { Box, Card, Stack, CardContent, CardMedia, Typography, IconButton} from '@mui/material';
-import recepiesCookies from '../data/data_cookies'
+import {recepies} from '../data/data_recepies'
 import {useParams } from "react-router-dom";
 
 
-const OneRecipe = () => {
+export const OneRecipe = () => {
   let { id } = useParams();
   console.log(id)
-  const data = recepiesCookies.find((oneRecipe) =>{
+  const data = recepies.find((oneRecipe) =>{
       return oneRecipe.id === parseInt(id)
   })
 
-  console.log(data)
   const{title, image, description, difficulty, time } = data  
 
   return <>
@@ -67,5 +66,3 @@ const OneRecipe = () => {
   </Box> */} 
  </>
 }
-
-export default OneRecipe

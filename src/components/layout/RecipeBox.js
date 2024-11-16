@@ -1,6 +1,6 @@
 import { ImageListItem, ImageListItemBar } from "@mui/material"
 
-const RecipeBox = ({id, image, title}) => {
+export const RecipeBox = ({id, image, title}) => {
     
     return <a href={`/OneRecipe/${id}`}>
         <ImageListItem>
@@ -10,9 +10,5 @@ const RecipeBox = ({id, image, title}) => {
                 loading='lazy' />
             <ImageListItemBar title={title}/>
         </ImageListItem>
-    </a>
- 
-    
+    </a>   
 }
-
-export default RecipeBox
