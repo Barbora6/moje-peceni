@@ -194,25 +194,69 @@ export const recepies = [
     },
 
     {
-        id:18,
+        id:19,
         categoryId:3,
-        image: 'image18.jpg',
-        title: 'Křupavé mandlové sušenky',
-        description: '<p>Do mísy robotu dejte bílek se špetkou soli a našlehejte ho do polotuha. Přisypte moučkový cukr a ušlehejte lesklou, pevnou hmotu. Vmíchejte mleté mandle, citronovou kůru a už jen lžící promíchejte.</p><p>Do menší misky nasypte krystalový cukr. Mokrýma rukama tvořte kuličky velké asi jako vlašský ořech, obalte je v krystalu a skládejte na plech vyložený pečicím papírem. Na každou kuličku položte mandli a přimáčkněte ji, kuličky se trochu zploští a některé popraskají, což není na škodu. Připravené sušenky nechte na plechu alespoň 12 hodin schnout při pokojové teplotě.</p><p>Sušenky pečte v troubě předehřáté na 180 °C, asi 10 minut. Měly by lehce zrůžovět. Nechte je vychladnout a skladujte v uzavíratelné krabici.</p>',
-        // rawMaterials: na 1 plech, 1 ks bílek, 1 špetka soli, 140 g moučkový cukr, 170 g mleté mandle, citronová kůra z 1 citronu, cukr krystal na obalení, mandle na zdobení,
+        image: 'image19.jpg',
+        title: 'Makové kytky s citronem',
+        description: '<p>Troubu předehřejte na 180 °C. V míse utřete obě másla se 100 g cukru a citronovou kůrou a postupně zašlehejte žloutky. Šlehejte, dokud nevznikne nadýchaná světlá pěna. Ve druhé míse (dokonale čisté a suché) vyšlehejte bílky. Až se napění, přidejte zbylý cukr a vyšlehejte pevný lesklý sníh.</p><p>Mandle promíchejte s mákem a střídavě zlehka spojujte s bílkovým sněhem a vyšlehanými žloutky. Formičky dobře vytřete máslem a vysypte mandlovou moukou. Vlijte do nich těsto a pečte v troubě 20 minut. Hotové kytičky opatrně vyklopte a nechte vychladnout.</p><p>V misce vyšlehejte suroviny na polevu – musí být hustá. Dejte ji do cukrářského sáčku s tenkou špičkou a kytky ozdobte.</p>',
+        // rawMaterials: 600 g máslo + na formu, 60 g arašídové máslo, 125 g třtinový cukr, 1 lžička citronová kůra jemně nastrouhaná, 4 ks vejce, 100 g mleté mandle jemně mleté, + na formu, 160 g mák část může být nemletá
+        difficulty: 'snadné',
+        time: 40,
+    },
+
+    {
+        id:20,
+        categoryId:3,
+        image: 'image20.jpg',
+        title: 'Mandlovo-kakaová srdíčka',
+        description: '<p>Ve větší míse smíchejte všechny sypké suroviny. V misce vidličkou prošlehejte bílky do pěny a vlijte je k suché směsi. Přidejte mandlový likér. Nejdříve nožem krouživým pohybem vmíchejte tekutiny do směsi a pak začněte rukama zpracovávat těsto. Zprvu to půjde ztuha, ale vytrvejte, hmota se poddá a vznikne pevné, hutné těsto. Vytvarujte z něj kouli, zploštěte ji na vyšší placku, zabalte do fólie a uložte do ledničky. Těsto nechte odležet minimálně přes noc, ale klidně dva dny.</p><p>Těsto vložte mezi dva archy pečicího papíru a rozválejte na placku 1 cm silnou. Posypte krystalky cukru, přejeďte válečkem a vykrajujte tvary. Skládejte je na plech vyložený pečicím papírem a pečte v troubě předehřáté na 190 °C, asi 8 minut. Nechte vychladnout a skladujte v uzavíratelné krabici.</p>',
+        // rawMaterials: na 2 plechy, 250 g mleté mandle, 250 g moučkový cukr, 50 g kakao, 1 lžička skořice, 0,50 lžička hřebíček mletý, 2 ks bílek, 3 lžíce mandlový likér, cukr krystal na posypání,
+        difficulty: 'snadné',
+        time: 20,
+    },
+
+    {
+        id:21,
+        categoryId:3,
+        image: 'image21.jpg',
+        title: 'Skořicové cupcakes',
+        description: '<p>Do mísy prosejte mouku a promíchejte ji s práškem do pečiva, špetkou soli a skořicí. Máslo ušlehejte s cukrem do pěny, použijte robot nebo ruční šlehač. Vejce rozklepněte do misky, prošlehejte vidličkou, přilijte mléko, znovu prošlehejte, přilijte k našlehanému máslu a krátce promíchejte. Přidejte sypkou směs a umíchejte těsto.</p><p>Troubu předehřejte na 180 °C. Formy na muffiny vyložte papírovými košíčky, naplňte je do 3 těstem a upečte, asi 15 minut. Nechte vychladnout.</p><p>Mezitím připravte krém. Mascarpone promíchejte s cukrem a likérem do hladkého krému, stačí razantně promíchat vařečkou, šleháním mascarpone řídne. Krémem naplňte cukrářský sáček a bohatě ozdobte korpusy. Dortíky zasypte skořicí a ozdobte perníčky.</p>',
+        // rawMaterials: 180 g špaldová mouka jemně mletá, 1 lžička prášek do pečiva, 1 špetka sůl, 2 lžička skořice + na dokončení, 130 g máslo změklé, 110 g třtinový cukr jemně mletý, 2 ks vejce, 100 ml mléko, 12 ks medové perníčky malé, na ozdobení,
         difficulty: 'snadné',
         time: 30,
     },
 
     {
-        id:18,
+        id:22,
         categoryId:3,
-        image: 'image18.jpg',
-        title: 'Křupavé mandlové sušenky',
-        description: '<p>Do mísy robotu dejte bílek se špetkou soli a našlehejte ho do polotuha. Přisypte moučkový cukr a ušlehejte lesklou, pevnou hmotu. Vmíchejte mleté mandle, citronovou kůru a už jen lžící promíchejte.</p><p>Do menší misky nasypte krystalový cukr. Mokrýma rukama tvořte kuličky velké asi jako vlašský ořech, obalte je v krystalu a skládejte na plech vyložený pečicím papírem. Na každou kuličku položte mandli a přimáčkněte ji, kuličky se trochu zploští a některé popraskají, což není na škodu. Připravené sušenky nechte na plechu alespoň 12 hodin schnout při pokojové teplotě.</p><p>Sušenky pečte v troubě předehřáté na 180 °C, asi 10 minut. Měly by lehce zrůžovět. Nechte je vychladnout a skladujte v uzavíratelné krabici.</p>',
-        // rawMaterials: na 1 plech, 1 ks bílek, 1 špetka soli, 140 g moučkový cukr, 170 g mleté mandle, citronová kůra z 1 citronu, cukr krystal na obalení, mandle na zdobení,
+        image: 'image22.jpg',
+        title: 'Vanilkové banánky s ořechovým krémem',
+        description: '<p>Mouku prosejte na vál, přidejte moučkový cukr a promíchejte. Do mouky udělejte důlek, rozklepněte do něj vejce a přidejte na menší kousky nakrájené máslo. Citron důkladně omyjte a kůru ostrouhejte na jemném struhadle. Všechny suroviny na válu pak rukama rychle, ale důkladně prohněťte. Do těsta na linecké přidejte vanilkový cukr a vanilkovou esenci. Z hotového těsta udělejte hroudu, zabalte ji do fólie a uložte ji alespoň na hodinu, nejlépe však do druhého dne, do chladničky.</p><p>Z odleželého těsta vykrajujte banánky a pečte je na plechu v troubě předehřáté na 180 °C.</p><p>Na krém smíchejte umleté ořechy a nastrouhanou čokoládu. Máslo ušlehejte s cukrem a žloutkem do pěny. Spojte s ořechy a čokoládou. Vychladlé banánky spojujte po dvou k sobě krémem a z poloviny je namáčejte v čokoládové polevě.</p><p>Poznámka: Ingredience jsou na 1 - 2 plechy.</p>',
+        // rawMaterials: Na těsto: 500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citronu, 1 špetka sůl, 1 balíček vanilkový cukr 1 - 2 sáčky, vanilková esence, Na krém: 100 g vlašské ořechy, 300 g máslo, 60 g hořká čokoláda nastrouhaná, 2 ks žloutek, 100 g moučkový cukr, 2 lžíce hnědý rum,čokoládová poleva,
+        difficulty: 'snadné',
+        time: 20,
+    },
+
+    {
+        id:23,
+        categoryId:3,
+        image: 'image23.jpg',
+        title: 'Oříškové hvězdičky s citrusovou marmeládou',
+        description: '<p>Lískové oříšky nechte opražit nasucho na plechu v troubě nebo na pánvi. Ještě teplé je promněte v utěrce, abyste je zbavili slupky, a najemno je nastrouhejte nebo rozsekejte v robotu.</p><p>Mouku prosejte na vál, přidejte moučkový cukr a promíchejte. Do mouky udělejte důlek, rozklepněte do něj vejce a přidejte na menší kousky nakrájené máslo. Citron důkladně omyjte a kůru ostrouhejte na jemném struhadle. Spolu s oříšky ji přidejte k surovinám. Všechny suroviny na válu pak rukama rychle, ale důkladně prohněťte.</p><p>Troubu předehřejte na 180 °C, plech vyložte pečicím papírem. Těsto rozválejte na plát, vykrajujte z něj hvězdičky a pečte je ve vyhřáté troubě 8 až 10 minut – podle velikosti hvězdiček. Vychladlé hvězdičky slepte citrusovou marmeládou a ozdobte moučkovým cukrem.</p>',
+        // rawMaterials: Na těsto: 500 g hladká mouka, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citrónu, 200 g lískové oříšky strouhané, 1 špetka sůl, mouka na podsypání, marmeláda citrusová, moučkový cukr na posypání,
         difficulty: 'snadné',
         time: 30,
+    },
+
+    {
+        id:24,
+        categoryId:3,
+        image: 'image24.jpg',
+        title: 'Ořechová kolečka s vanilkovým krémem bez lepku',
+        description: '<p>Nejprve připravte krém. Ve vodní lázni ušlehejte ručním šlehačem žloutky s cukrem a dření z lusku do husté teplé pěny. Přendejte ho do robotové mísy, přidejte tuzemák a za pomalé rychlosti promíchávejte, aby směs vychladla. Při vyšších otáčkách všlehejte máslo</p><p>Troubu zahřejte na 200 °C, 2–3 plechy vyložte pečicím papírem. Na vále nebo v robotové míse zpracujte dohladka všechny ingredience. Těsto je lepivější, proto s ním pracujte po menších částech, jen co se vejdou do dlaně. Vál posypte moukou a těsto v ní ještě obalte. Znovu vál posypte a těsto vyválejte na sílu 3–5 mm.</p><p>Vykrájejte kolečka a pečte je asi 10 minut. Jakmile začnou vonět a mírně zhnědnou, jsou hotová. Uložte je do krabice nebo rovnou slepte vanilkovým krémem. Každý kousek zdobte rozpuštěnou čokoládou nebo polevou.</p>',
+        // rawMaterials: Těsto: 330 g bezlepková směs jizerka zlatá, 200 g mleté vlašské ořechy, 150 g moučkový cukr, 250 g máslo změklé, 1 ks žloutek, 1 ks vejce, 2 lžíce kakao, 0,50 lžička skořice - mletá, 100 g čokoláda rozpuštěná, nebo poleva, Vanilkový máslový krém: 3 ks žloutek, 120 g moučkový cukr, 375 g máslo, tuzemák dle chuti,vanilkový lusk dřeň,
+        difficulty: 'snadné',
+        time: 75,
     }
 ]
 
