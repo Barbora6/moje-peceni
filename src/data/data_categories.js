@@ -1,5 +1,5 @@
 
-const data_categories = [
+export const data_categories = [
     {
         id:1,
         title:'Bábovky'
@@ -16,5 +16,3 @@ const data_categories = [
     }
 
 ]
-
-export default data_categories

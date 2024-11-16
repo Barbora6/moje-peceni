@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import {Navbar} from './Navbar'
+import {Footer} from './Footer'
 import { AppBar, Box, Container, Toolbar, Typography } from '@mui/material'
 
-const SharedLayout = () => {
+export const SharedLayout = () => {
   return <>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -22,5 +22,3 @@ const SharedLayout = () => {
         <Footer/>  
   </>
 }
-
-export default SharedLayout

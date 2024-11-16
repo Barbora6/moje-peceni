@@ -1,10 +1,10 @@
-import recepiesMarbleCake from '../../data/data_marbleCake'
+import {recepies} from '../../data/data_recepies'
 import { useState } from 'react'
 import { Stack, ImageList, Box } from '@mui/material'
-import RecipeBox from '../../components/layout/RecipeBox'
+import {RecipeBox} from '../../components/layout/RecipeBox'
 
 
-const MarbleCake = () => {
+export const MarbleCake = () => {
 
 const[showRecipe, setShowRecipe] = useState(false)
 const[selectedArticle, setSelectedArticle] = useState(null)
@@ -24,7 +24,7 @@ const handleArticleClick = (article) => {
         gap={8}
     >
         {
-            recepiesMarbleCake.map((item) => {
+            recepies.map((item) => {
               return <RecipeBox key={item.id} {...item}/>
             }          
           )}
@@ -34,6 +34,4 @@ const handleArticleClick = (article) => {
   </Stack>
 
 }
-
-export default MarbleCake
 

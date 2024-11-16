@@ -1,9 +1,9 @@
-import recepiesCookies from '../../data/data_cookies'
+import {recepies} from '../../data/data_recepies'
 import { useState } from 'react'
 import { Stack, ImageList, Box } from '@mui/material'
-import RecipeBox from '../../components/layout/RecipeBox'
+import {RecipeBox} from '../../components/layout/RecipeBox'
 
-const Cookies = () => {
+export const Cookies = () => {
 
 const[showRecipe, setShowRecipe] = useState(false)
 const[selectedArticle, setSelectedArticle] = useState(null)
@@ -22,7 +22,7 @@ const handleArticleClick = (article) => {
       gap={8}
   >
       {
-          recepiesCookies.map((item) => {
+          recepies.map((item) => {
             return <RecipeBox key={item.id} {...item}/>
         
           }          
@@ -33,7 +33,5 @@ const handleArticleClick = (article) => {
 </Stack>
 
 }
-
-export default Cookies
 
 

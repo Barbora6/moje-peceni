@@ -1,19 +1,19 @@
-import data_categories from '../data/data_categories';
+import {data_categories} from '../data/data_categories';
 import {useParams } from "react-router-dom";
 import { Stack, ImageList, Typography } from '@mui/material'
-import RecipeBox from '../components/layout/RecipeBox'
-import recepiesMuffiny from '../data/data_muffiny'
+import {RecipeBox} from '../components/layout/RecipeBox'
+import {recepies} from '../data/data_recepies'
 
 
 
-const Category = () => {
+export const Category = () => {
   let { id } = useParams();
   console.log(id)
   const data = data_categories.find((oneRecipe) =>{
       return oneRecipe.id === parseInt(id)
   })
 
-const categoryRecipes = recepiesMuffiny.filter((oneRecipe) =>{
+const categoryRecipes = recepies.filter((oneRecipe) =>{
     return oneRecipe.categoryId === parseInt(id)
 })
    
@@ -35,5 +35,3 @@ const categoryRecipes = recepiesMuffiny.filter((oneRecipe) =>{
   </Stack>
 
 }
-
-export default Category
