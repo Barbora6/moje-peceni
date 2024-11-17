@@ -346,5 +346,236 @@ export const recepies = [
         difficulty: 'snadné',
         time: 'neuvedeno',
     },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: 'Mangový cheesecake',
+        description: '<p>Sušenky rozmixujte a v misce zalijte rozpuštěným máslem. Promíchejte a nasypte do formy o průměru 20 cm vyložené pečicím papírem. Rovným dnem sklenky korpus upěchujte.</p><p>Krémový sýr utřete s tvarohem, 100 g cukru a vejci. Nakonec vmíchejte mouku a hmotu vlijte na sušenkový korpus. Uhlaďte a v troubě rozehřáté na 160 °C pečte 20 minut. Pak troubu vypněte a nechte dort uvnitř ještě dalších 20 minut.</p><p>Zatím oloupejte mango a dužninu nakrájejte na kostky. Nasypte je do kastrolu, zalijte 150 ml vody a přidejte zbytek cukru. Povařte 10 minut a poté rozmixujte dohladka. Agar-agar připravte podle návodu na sáčku a vlijte k mangu. Promíchejte a vylijte na upečený dort. Nechte v chladu alespoň 2 hodiny ztuhnout a ozdobte jedlými květy.</p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:34,
+        categoryId:4,
+        image: 'image34.jpg',
+        title: 'Šarlota s kokosovými tyčinkami',
+        description: '<p>Želatinu namočte podle návodu na obalu. V míse smíchejte Pribináčky v kelímku s cukry a borůvkovou marmeládou. Smetanu vyšlehejte, nemusí být úplně tuhá.</p><p>Změklou želatinu po vychladnutí vymačkejte od přebytečné vody a vetřete ji do sladkého krému.</p><p>Dno formy na dort (průměr 16 cm) vyložte potravinářskou fólií. Kokosové Tyčinky vyskládejte čokoládovou stranou dovnitř jednu vedle druhé. Opatrně vnitřní část naplňte krémem. Nechte ideálně do druhého dne v ledničce zchladnout, minimálně však 2 hodiny.</p>',
+        // rawMaterials: 16 ks kokosová tyčinka Pribináček Tyčinka kokos, 250 g vanilkový pribináček, 250 g vanilkový pribináček Smetanový, 80 g třtinový cukr, 1 balíček vanilkový cukr, 4 lžíce borůvkový džem, 200 ml smetana ke šlehání, 7 g želatina plátková, 1 hrst jahody, 1 hrst maliny, 1 hrst borůvky,
+        difficulty: 'snadné',
+        time: 30,
+    },
+
+    {
+        id:38,
+        categoryId:4,
+        image: 'image38.jpg',
+        title: 'Duhový dort',
+        description: '<p>Nejprve předehřejte troubu na 170 °C. Pokud nemáte dostatek forem na korpus (6 ks), můžete použít jednorázové alobalové dortové formy, které koupíte v supermarketu. Všechny formy vymažte máslem a odložte zatím stranou.</p><p>Vejce, žloutky, cukr, sůl, vanilkový extrakt a olej vyšlehejte do husté pěny. Nakonec zamíchejte mléko, směs mouky a prášku do pečiva.</p><p>Přelijte těsto do 6 různých misek a obarvěte pomocí gelových potravinářských barev. Gelové potravinářské barvy fungují nejlépe, docílíte s nimi nejhezčích barev. Koupíte je v obchodech s potřebami na pečení. Většinou stačí zhruba jedna čajová lžička na misku těsta, které pak promícháte silikonovou špachtlí. Nezapomeňte špachtli po každé barvě omýt, aby se vám barvy nesmíchaly dohromady.</p><p>Přendejte těsto do nádob na pečení a uhlaďte je špachtlí. Vložte do trouby a celou dobu je hlídejte, aby vám dort nezhnědl. Nejlépe je po chvilkách otáčejte. Pečte zhruba 20 minut. Upečené korpusy nechte vychladnout, pak je zabalte do potravinářské fólie a dejte ještě asi na hodinu do chladničky.</p><p>Mezitím si připravte krém. Krémový sýr, mascarpone a cukr krátce dohladka vyšlehejte. Smetanu ušlehejte dotuha a opatrně ji vmíchejte do krémové směsi.</p><p>Na rovný talíř naneste trochu krému a přiklopte ho jedním korpusem. Přidejte opět vrstvu krému a další korpus a takto pokračujte, dokud nebude dort celý sestavený. Nakonec potřete dort na vrchu a kolem dokola zbylým krémem a uložte ho alespoň na hodinu do lednice, aby ztuhnul.</p>',
+        // rawMaterials: Korpus: 6 ks vejce, 4 ks žloutek, 250 g cukr krupice, 250 g hladká mouka, 100 ml olej, 100 ml mléko, 1 lžička vanilkový extrakt, 1 špetka soli, potravinářské barvivo gelové potravinářské barvy (žlutá, oranžová, červená, zelená, modrá, fialová)
+        // Poleva:ˇ400 g krémový sýr např. Lučina, 250 g mascarpone, 125 g moučkový cukr prosetý, 500 ml smetana ke šlehání,
+        difficulty: 'snadné',
+        time: 70,
+    },
+
+    {
+        id:36,
+        categoryId:4,
+        image: 'image36.jpg',
+        title: 'Pavlova se šlehačkou a jahodami',
+        description: '<p>Z bílků ušlehejte takřka tuhý sníh, poté do něj za stálého šlehání po částech přidejte cukr. Nakonec do hmoty zašlehejte škrob a vinný ocet.</p><p>Pečicí papír přilepte k plechu pomocí malého množství sněhové hmoty. Na papír obkreslete podle menšího talíře kruh. Do něj navršte ušlehanou hmotu, „sněhová hora“ by měla být asi 4–6 centimetrů vysoká, nepravidelnost je naopak vítaná.</p><p>Troubu předehřejte na 150 °C. Vložte do ní Pavlovu, teplotu snižte na 120°C a pečte 80 minut. Během pečení troubu neotvírejte, dezert by splaskl. Hotovou Pavlovu nechte postupně chladnout v otevřené troubě.</p><p>Vychladlý korpus sundejte i s papírem z plechu, papír kolem dokola uvolněte, chytněte za jeden roh, Pavlovu usaďte na podnos a papír rychlým pohybem stáhněte.</p><p>Smetanu s cukrem ušlehejte dotuha a navršte na korpus. Přidejte očištěné a pokrájené jahody a poprašte trochou moučkového cukru.</p>',
+        // rawMaterials: 4 ks bílek, 220 g moučkový cukr + 1 lžíce do šlehačky + na poprášení, 2 lžíce kukuřičný škrob, 2 lžička vinný ocet, 200 ml smetana ke šlehání, jahody na dozdobení,
+        difficulty: 'snadné',
+        time: 100,
+    },
+
+    {
+        id:37,
+        categoryId:4,
+        image: 'image37.jpg',
+        title: 'Lemon Pie Vanilla Cheesecake',
+        description: '<p>Budete potřebovat kulatou dortovou formu (já použila malou – průměr 20 cm) - mám radši vyšší cheesecake). Pokud máte větší, budete mít nižší, nebo přizpůsobte množství ingrediencí a čas pečení. Nejprve si z pečicího papíru vystřihněte kolečko o velikosti dna formy. Stěny potřete máslem a vysypte cukrem krystal.</p><p>Sušenky rozdrťte a smíchejte s cukrem, vanilkou a rozpuštěným máslem. Zpracujte prsty a natlačte na dno formy v rovnoměrné vrstvě. Dobře upěchujte. Pečte asi 7 minut na 180°C.</p><p>Na náplň smíchejte v robotu s nástavcem na hnětení těsta tvaroh, smetanu/jogurt, vanilku a cukr. Směs by měla být jen lehce našlehaná, ale hlavně hladká. Pak přidejte mouku a pořádně smíchejte. Po jednom přidávejte vejce a promíchejte. V této fázi nechcete "přešlehat", aby se při pečení nenafoukl nebo nepopraskal.</p><p>Nalijte náplň do upečené sušenkové krusty. Pečte cca 35min na 170 °C - dokud střed není pevný.</p><p>Zatímco se peče cheesecake, připravte si Lemon Pie náplň. Smíchejte cukr a škrob v menším hrnci ideálně s nepřilnavou úpravou. Přilijte vodu, míchejte a povařte na středním ohni do zhoustnutí. Až zhoustne, nechte ještě 3-4 minutky povařit. Teprve potom přilijte citronovou šťávu (kyselost citronu by při delším vaření narušovala škrobové vazby a náplň by pak neztuhla), a kůru. Žloutky v misce rozšlehejte, přilijte k nim naběračku citronové směsi, intenzivně míchejte. Pak žloutkovou směs nalijte zpět do hrnce, můžete přikápnout trošku žlutého potravinářského barviva, ale není to potřeba. Míchejte a povařte tak 2 minutky. Odstavte z plotny, vmíchejte máslo a nechte mírně zchladnout.</p><p>Po upečení nalít na cheesecake citronovou náplň, zahladit a nechat vychladnout. Dozdobte zakysankou míchanou s cukrem. Do části můžete vmíchat žluté barvivo a pak si s tím při zdobení trochu vyhrát.</p>',
+        // rawMaterials: Korpus: 130 g sušenky, 4 lžíce rozpuštěné máslo, 3 lžíce cukr, 
+        // Tvarohová náplň: 500 g měkký tvaroh, 100 g řecký jogurt - pravý nebo zakysanka, 4 lžíce cukr, 1 lžička vanilka (já mám vanilkovou pastu - rozemleté lusky s cukrem), 1 lžička vanilkový extrakt, 1 ks vejce, 2 ks bílek, 3 lžíce hladká mouka, 
+        // Citronová náplň: 300 g cukr krystal, 50 g škrob, 300 ml voda, 150 ml citronová šťáva, 2 lžička citronová kůra, 3 ks žloutek, 50 g máslo,
+        difficulty: 'střední',
+        time: 75,
+    },
+
+    {
+        id:35,
+        categoryId:4,
+        image: 'image35.jpg',
+        title: 'Nahý dort s malinami a tymiánem',
+        description: '<p>Vejce vyšlehejte v kuchyňském robotu na vyšší rychlost do husté světlé pěny, asi 10 minut. Poté tenkým proudem pomalu přilévejte olej a dál šlehejte. Pěna získá konzistenci podobnou majonéze. Nyní již opatrně stěrkou spojte vaječnou pěnu s mouku promíchanou s práškem do pečiva a špetkou soli. Ze vzniklého těsta upečte 3 korpusy ve formě o průměru 20 cm.</p><p>Mascarpone s krémovým sýrem, smetanou a cukrem vyšlehejte do krému – šlehejte jen krátce, aby se krém nesrazil. Nakonec do krému vmíchejte polovinu malin a lístky tymiánu ze 3 snítek. Krémem postupně promažte všechny tři korpusy a sestavte dort. Vršek ozdobte zbylými malinami, tymiánem a poprašte moučkovým cukrem.</p><p></p>',
+        // rawMaterials: Těsto: 6 ks vejce, 200 g cukr, 150 ml slunečnicový olej, 400 g polohrubá mouka, 2 lžička prášek do pečiva, 1 špetka sůl, Krém: 250 g mascarpone, 125 g krémový sýr Philadelphia, 200 ml smetana ke šlehání, 100 g třtinový cukr, 200 g maliny, tymián, moučkový cukr,
+        difficulty: 'snadné',
+        time: 35,
+    },
+
+    {
+        id:39,
+        categoryId:4,
+        image: 'image39.jpg',
+        title: 'Perníkový dort',
+        description: '<p>Troubu předehřejte na teplotu 180 °C. Dortovou formu vyložte pečícím papírem.</p><p>Do mísy kuchyňského robotu prosejte mouku a přidejte cukr, koření, prášek do pečiva, sodu a sůl. Použijte třecí nástavec a všechny suché ingredience promíchejte. Přihoďte na kostky nakrájené máslo a míchejte nízkou rychlostí, až vznikne drobenka pískové konzistence.</p><p>Postupně přidávejte vejce a melasu. Nakonec vmíchejte mléko, pomerančovou šťávu a kůru. Již jen stěrkou přimíchejte kousky kandovaného zázvoru a vlijte těsto do formy. Pečte 30 minut. Zkontrolujte těsto špejlí. Hotový korpus nechte úplně vychladnout.</p><p>Všechny dobře vychlazené suroviny na krém vyšlehejte do husté konzistence. Korpus prokrojte 3x až 4x, jeho patra pak spojte krémem. Boky dortu rovněž potřete krémem a uhlaďte stěrkou. Dort ozdobte perníčky.</p>',
+        // rawMaterials: Korpus: 350 g hladká mouka, 330 g hnědý cukr, 2 lžička zázvor - mletý, 2 lžička skořice - mletá, 1 lžička hřebíček mletý, 1 lžíce prášek do pečiva, 1 lžička jedlá soda, 0,50 lžička sůl, 200 g máslo studené, 3 ks vejce, 2 lžíce melasa, 200 ml mléko, 1 lžíce pomerančová šťáva a jemně nastrouhaná kůra, 3 lžíce kandovaný zázvor, medové perníčky na odzdobení
+        // Krém: 400 g krémový sýr Philadephia, 0,50 lžička skořice, 400 ml smetana ke šlehání, 200 g moučkový cukr,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:40,
+        categoryId:4,
+        image: 'image40.jpg',
+        title: 'Dort se slaným karamelem a medovými plástvemi',
+        description: '<p>Troubu předehřejte na 160 °C. Do mísy nalijte mléko a promíchejte s oběma cukry a vanilkovým extraktem.</p><p>Máslo rozehřejte s nalámanou čokoládou, nechte trochu zchladnout a spolu s vejci všlehejte k mléku.</p><p>Mouku promíchejte s práškem do pečiva a kakaem a spojte s tekutými ingrediencemi na polotuhé těsto, ale nemíchejte příliš.</p><p>Dortovou formu vyložte pečicím papírem a těsto do ní vlijte. Uhlaďte povrch a pečte 80 až 90 minut. Korpus vyzkoušejte špejlí, a pokud ji vytáhnete suchou, je upečeno. Nechte korpus dobře vychladnout.</p><p>Připravte si krém. Máslo pokojové teploty utřete v robotu s cukrem do pěny, použijte šlehací metlu a šlehejte alespoň 8 minut. Poté všlehejte karamelové salko a sůl. Odložte do ledničky.</p><p>Na medovou plástev si připravte plech vyložený pečicím papírem. Cukr, med a vodu dejte do kastrolu a přiveďte k varu. Vařte bez míchání 9–10 minut, dokud teplota rozvaru nedosáhne 152 °C. Rychle metlou vmíchejte sodu, obsah hrnce začne hodně pěnit. Tekutinu ihned přelijte na plech a nechte zchladnout.</p><p>Korpus prokrájejte na tři pláty. Krém přendejte do cukrářského sáčku s ozdobnou špičkou. První plát ozdobte krémem a položte na něj druhý plát. Opět ozdobte a završte posledním plátem. Okraje korpusu ozdobte krémem a doprostřed nasypte nalámané medové plástve. Uchovávejte v chladu.</p>',
+        // rawMaterials: 300 ml mléko, 200 g cukr krupice, 150 g třtinový cukr, 2 lžička vanilkový extrakt, 250 g máslo, 200 g hořká čokoláda, 2 ks vejce, 300 g hladká mouka, 1 ks prášek do pečiva, 50 g kakao holandské, 
+        // krém: 250 g máslo, 150 g moučkový cukr, 200 g salko slazené karamelové, 1 lžička hrubé soli,Medové plástve (Honeycomb): 440 g cukr krupice, 80 g medu, 80 ml vody, 1 lžíce jedlé sody, 
+        difficulty: 'snadné',
+        time: 150,
+    },
+
+    {
+        id:41,
+        categoryId:4,
+        image: 'image41.jpg',
+        title: 'Mrkvový dort s ananasem a banány',
+        description: '<p>Mrkev nastrouhejte najemno, banány rozmačkejte vidličkou, ananas nasekejte nadrobno, ořechy stačí posekat nahrubo. Ve velké míse vidličkou prošlehejte vejce, přilijte olej a promíchejte s mrkví, banány a ananasem. V jiné míse promíchejte mouku s práškem do pečiva, skořicí a cukrem. Suchou směs po částech zapracujte do tekuté.</p><p>Dortovou formu lehce vymažte máslem a vyložte pečicím papírem. Vlijte těsto a dejte ho péct do trouby předehřáté na 180 °C. Pečte 50–60 minut. Korpus nechte zcela vychladnout na mřížce.</p><p>Připravte mrkvové lokny na ozdobu. Škrabkou na zeleninu nakrouhejte z mrkví pásky. V rendlíku smíchejte cukr s hrnkem vody, přiveďte k varu, mrkvové pásky asi 5 minut povařte a poté je rozložte na plech vyložený pečicím papírem. Sušte je v troubě předehřáté na 100 °C asi 30 minut. Měly by stále zůstat pružné. Poté proužky mrkve omotejte kolem rukojetí dřevěných vařeček nebo kolem dvou dřevěných hůlek (ty jsou praktičtější). Naskládejte je zpět na plech a sušte v troubě dalších 30 minut.</p><p>Mezitím připravte krém. Sýr prošlehejte s cukrem a citronovou šťávou. Vychladlý korpus prokrojte, spodní část potřete polovinou krému, přiklopte vrchní částí korpusu, potřete zbylým krémem a uložte do ledničky. Před podáváním dort ozdobte mrkvovými loknami, nasekanými pistáciemi a lístky máty.</p>',
+        // rawMaterials: na formu o prům. 20 cm, 150 g mrkev, 200 g banány oloupané, 150 g ananasový kompot bez nálevu, 60 g vlašské ořechy, 40 g pistácie, 3 ks vejce, 130 ml slunečnicový olej, 270 g hladká mouka, 1 balení prášek do pečiva, 1 lžička skořice, 200 g třtinový cukr, máslo na vymazání formy, 
+        // krém: 600 g smetanový sýr např. Philadelphia, 100 g moučkový cukr, 1 lžíce citronová šťáva, na ozdobu, 2 ks mrkev větší, 1 šálek cukr, 1 hrst pistácie, máta lístky,
+        difficulty: 'snadné',
+        time: 80,
+    },
+
+    {
+        id:42,
+        categoryId:4,
+        image: 'image42.jpg',
+        title: 'Mrkvový koláč s tvarohovým krémem',
+        description: '<p>Troubu předehřejeme na 180 stupňů. Mrkev a jablko najemno nastrouháme a přidáme k ní všechny ostatní suroviny. Těsto nalijeme do papírem vystlané menší kulaté formy a pečeme cca 40 minut.</p>',
+        // rawMaterials: Korpus: 250 g mrkev, 1 ks jablko, 100 g špaldová mouka, 2 ks vejce, 50 g třtinový cukr, 120 g bílý jogurt netučný, 50 g flora nebo jiný rostlinný tuk rozpuštěný, 1 lžička prášku do pečiva, 1 lžička skořice, 25 g vlašské ořechy mleté
+        // Krém: 250 g nízkotučný tvaroh, třtinový cukr třtinový moučkový cukr, 2 citronová šťáva, rozinky,
+        difficulty: 'snadné',
+        time: 60,
+    },
+
+    {
+        id:43,
+        categoryId:4,
+        image: 'image43.jpg',
+        title: 'Mangový dort s kokosem',
+        description: '<p>Máslo s cukrem ušlehejte v robotu do pěny, věnujte tomu alespoň 5 minut. Poté postupně zašlehejte vejce. Mouku smíchejte s práškem do pečiva a kokosem, přidejte do vaječné směsi a prošlehejte.</p><p>Obě manga oloupejte a zbavte pecky. Jedno rozmixujte na pyré, polovinu druhého nasekejte nadrobno a vše vmíchejte do těsta. Těsto nalijte do formy vyložené pečicím papírem a dejte péct do trouby vyhřáté na 160 °C, korpus se bude péct asi 60 minut.</p><p>Hotový korpus nechte vychladnout. Mascarpone promíchejte s cukrem. Kokosové plátky nasucho opražte. Zbytek manga pokrájejte na tenké plátky. Korpus potřete krémem, ozdobte plátky manga a posypte kokosem.</p>',
+        // rawMaterials: na formu o prům. 20 cm, 170 g máslo změklé, 170 g třtinový cukr, 3 ks vejce, 300 g hladká mouka, 2 lžička prášek do pečiva, 3 lžíce strouhaný kokos, 2 ks mango 250 g na pyré + 80 g nasekat, 400 g mascarpone, 3 lžíce moučkový cukr, 1 hrst kokosové hoblinky
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:44,
+        categoryId:4,
+        image: 'image44.jpg',
+        title: 'Mechový dort s mascarpone',
+        description: '<p>Všechny přísady by měly mít pokojovou teplotu. V případě, že zvolíte mražený listový špenát nechte ho rozmrazit a poté ho zbavte přebytečné vody. Špenát rozmixujte mixérem nebo v robotu.</p><p>V misce rozšlehejte vejce a cukr. Postupně přidávejte olej a šlehejte, aby se ingredience spojily.</p><p>Poté přidejte hotové špenátové pyré, citronovou šťávu a kůru, vše promíchejte. Přidejte mouku s práškem do pečiva a opět promíchejte.</p><p>Připravte si formu o průměru cca 20 cm a vyložte ji pečícím papírem.</p><p>Směs nalijte do formy a pečte při teplotě 165 ° C po dobu 40 až 45 minut.</p><p>Mezitím si připravte krém z mascarpone. Všechny ingredience vložte do misky a vyšlehejte do tuhé konzistence.</p><p>Po upečení odřízněte horní část korpusu a rozdrobte ji do samostatné misky.</p><p>Dort prořízněte vodorovně středem a vytvořte dvě vrstvy. Obě vrstvy dortu promažte krémem.</p><p>Zbytkem krému potřete celý dort a posypte rozdrobeným korpusem. Na závěr dort ozdobte granátovým jablkem a borůvkami.</p>',
+        // rawMaterials: Na korpus: 400 g baby špenát nebo mražený špenát, 3 ks vejce, 1 šálek moučkový cukr, 0,75 šálek řepkový olej nebo slunečnicový, 2 šálek hladká mouka, 2,50 lžička prášek do pečiva, 2 lžíce citronová šťávy, citronová kůra z jednoho citronu
+        // Na krém: 250 ml smetana ke šlehání, 125 g mascarpone, 1,50 lžíce moučkový cukr, 1 lžička vanilkový extrakt nebo citronová šťáva,
+        difficulty: 'snadné',
+        time: 60,
+    },
+
+    {
+        id:45,
+        categoryId:4,
+        image: 'image45.jpg',
+        title: 'Pavlova s amarreto krémem',
+        description: '<p>Troubu předehřejte na 150 °C. Oddělte bílky od žloutků. Bílky dejte do mísy robotu, žloutky do rendlíku. Z bílků ušlehejte tuhý sníh, poté do něj za stálého šlehání postupně přidávejte cukr, vznikne tuhá, lesklá hmota, která bude tvořit pevné špičky. Nakonec přidejte škrob a ocet a už jen krátce prošlehejte.</p><p>Arch papíru přilepte v rozích k plechu malým množstvím ušlehané hmoty. Doprostřed na papír obkreslete podle menšího talíře kruh o průměru 15–20 cm, dezert se pak bude snáze tvarovat. Doprostřed kruhu navršte sněhovou hmotu a postupně ji lžící rozetřete tak, aby vznikl souměrný, asi 5 cm vysoký korpus. Nemusí být dokonale hladký, vlny a nerovnosti jsou naopak vítané. Plech dejte doprostřed trouby a hned snižte teplotu na 120 °C, pečte 80 minut. Během pečení odolejte pokušení a troubu neotvírejte, dezert by splaskl.</p><p>Mezitím připravte krém. Do rendlíku ke žloutkům přidejte cukr, mléko, polovinu množství smetany, škrob a amaretto. Metličkou vše důkladně promíchejte a za stálého míchání vařte na středním plameni do zhoustnutí. Jakmile krém začne houstnout, snižte teplotu, stále míchejte a minutu až dvě vařte. Ve chvíli, kdy vznikne hustý krém pudinkové konzistence, sundejte kastrol z plotny. Krém přelijte do mísy a na celý povrch přitiskněte potravinářskou fólii, díky tomu nevznikne škraloup. Krém nechte zcela vychladnout. Zbylou smetanu ušlehejte dotuha a postupně, po částech, ji vmíchejte do vychladlého krému, vznikne nadýchaná hmota.</p><p>Upečenou Pavlovu nechte postupně chladnout asi hodinu v otevřené troubě. Když zcela vychladne, sundejte ji i s papírem z plechu. Papír kolem dokola uvolněte, chytněte za jeden roh, Pavlovu usaďte na podnos a papír opatrným, ale rychlým pohybem stáhněte. Korpus může už během pečení praskat, proto pracujte opatrně. Na Pavlovu navršte krém, ozdobte ji ovocem, oříšky a mátou, zasypejte moučkovým cukrem.</p>',
+        // rawMaterials: 4 ks bílek, 220 g moučkový cukr + na posypání, 2 lžíce kukuřičný škrob, 2 lžička vinný ocet, čerstvé ovoce sezónní, vyloupané nesolené pistacie na posypání, máta na dozdobení
+        // Krém: 4 ks žloutek, 6 lžíce moučkový cukr, 200 ml mléko, 400 ml smetana ke šlehání, 4 lžíce kukuřičný škrob, 4 lžíce amaretto
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:46,
+        categoryId:4,
+        image: 'image46.jpg',
+        title: 'Malinový cheesecake s mandlemi',
+        description: '<p>Budete potřebovat kulatou dortovou formu (já použila malou – průměr 20 cm) - mám radši vyšší cheesecake). Pokud máte větší, budete mít nižší, nebo přizpůsobte množství ingrediencí. Nejprve si z pečicího papíru vystřihněte kolečko o velikosti dna formy.</p><p>Stěny potřete máslem a vysypte cukrem krystal. Formu zvenku zabalte do dvojité vrstvy alobalu tak, aby zakrýval dno i stěny (k tomu budete potřebovat větší formát alobalu). Bude se péct ve vodní lázni, tak aby se voda nedostala dovnitř.</p><p>Sušenky si nadrťte na jemno. Smíchejte s cukrem a rozpuštěným máslem. Natlačte prsty na dno (a na stěny - pokud jste použili více sušenek). Pečte cca 5 minut na 170 °C.</p><p>Na náplň smíchejte v robotu s nástavcem na hnětení těsta tvaroh, smetanu/jogurt, mandlový extrakt a cukr. Směs by měla být jen lehce našlehaná, ale hlavně hladká. Pak přidejte mouku a pořádně smíchejte. Po jednom přidávejte vejce a promíchejte. V této fázi nechcete "přešlehat".</p><p>Nalijte náplň do upečené sušenkové krusty. Celou formu vložte do většího (mělkého) pekáčku. Do pekáčku nalijte vařící vodu cca do výšky 5–7 cm. Ve výsledku by to mělo vypadat jako kulatá forma v "lázni". Pečte cca 10 minut na 180 °C a pak dalších 30-40 minut na 170 °C - dokud střed není pevný.</p><p>Mezitím dejte do menší nádoby maliny a cukr a povařte. Přes jemné sítko směs protlačte, abyste se zbavili semínek. Rozetřete na hotový dort a ozdobte plátky mandlí.</p>',
+        // rawMaterials: Korpus: sušenky 120-200g bez náplně (např. Bebe), 4 lžíce mleté mandle (volitelné, ale doporučené), 4 lžíce rozpuštěné máslo, 1 lžička mandlový extrakt, 3 lžíce cukr nebo dle chuti, 
+        // Náplň: 500 g měkký tvaroh, 150 g řecký jogurt - pravý nebo zakysaná smetana, 5 lžíce cukr, 1 lžička mandlový extrakt, 3 lžíce hladká mouka, 3 ks vejce, 
+        // Malinová směs: 1 hrnek maliny, 3 lžíce cukr, mandle plátky,
+        difficulty: 'střední',
+        time: 70,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
+
+    {
+        id:33,
+        categoryId:4,
+        image: 'image33.jpg',
+        title: '',
+        description: '<p></p><p></p><p></p>',
+        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        difficulty: 'snadné',
+        time: 90,
+    },
 ]
 
