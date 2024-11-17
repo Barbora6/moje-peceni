@@ -513,69 +513,79 @@ export const recepies = [
     },
 
     {
-        id:33,
+        id:47,
         categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        image: 'image47.jpg',
+        title: 'Jahodovo-malinový dortík s Pedro Frujty',
+        description: '<p>Předehřejeme si troubu na 200 °C a začneme s přípravou těsta.</p><p>Oddělíme si žloutky od bílků a ušleháme sníh. Žloutky utřeme s cukrem a přidáme prosátou mouku s práškem do pečiva. Pomocí stěrky vmícháme sníh.</p><p>Těsto vlijeme do vymazané a vysypané formy o průměru 23 cm. Pokud zvolíte formu menší, vyjde vám korpus na dvě prokrojení. Pečeme cca 25 minut.</p><p>Na vodní lázni si rozpustíme bílou čokoládu, kterou necháme mírně zchladnout. Poté do ní namáčíme jahody připravené na ozdobu, které odkládáme na tác vyložený pečícím papírem. Jahody v čokoládě dáme ztuhnout do lednice.</p><p>Zbytek čokolády smícháme s tvarohem, zakysanou smetanou, smetanou ke šlehání a práškovou želatinou připravenou dle návodu na obalu.</p><p>Do poloviny krému přidáme maliny a zbylé jahody nakrájené na kostičky. Oba krémy dáme cca na 20 minut ztuhnout do lednice, aby se nám s nimi lépe pracovalo.</p><p>Vychladlý korpus prořízneme, naplníme jahodovo-malinovým krémem a vršek dortu ozdobíme bílým krémem, na který položíme jahody v čokoládě, zbytek malin a bonbónky Pedro Frujty. Dáme alespoň na hodinu ztuhnout do lednice.</p>',
+        // rawMaterials: Korpus: 5 ks vejce, 10 lžíce polohrubá mouka, 10 lžíce cukr, 10 lžíce horká voda, 1 lžička prášek do pečiva, 
+        // Krém: 300 g jahody, 150 g maliny, 200 g bílá čokoláda, 1 kelímek tvaroh, 1 kelímek zakysaná smetana, 1 kelímek smetana ke šlehání, 1 balíček želatina v prášku
+        // Ozdoba:1 balíček gumové medvídky Pedro Frujty Superželé Ovobobule, 200 g jahody, 150 g maliny,
+        difficulty: 'snadné',
+        time: 120,
+    },
+
+    {
+        id:48,
+        categoryId:4,
+        image: 'image48.jpg',
+        title: 'Piškotový dort s malinovým mascarpone',
+        description: '<p>Troubu předehřejte na 180 °C. Dortové formy tence vymažte máslem a vyložte pečicím papírem, nejprve dejte kruh na dno, poté pruh přiložte na bok. Změklé máslo, citronovou kůru a cukr utřete do pěny. Postupně k máslu zašlehejte vejce a poté mouku promíchanou s práškem do pečiva.</p><p>Těsto rozdělte do obou forem a pečte 25 minut. Uprostřed korpusu testujte špejlí. Pokud bude po vytáhnutí suchá, vyndejte je z trouby a nechte zcela vychladnout.</p><p>Do mísy dejte vychlazené mascarpone a smetanu ke šlehání. Přidejte maliny a vyšlehejte do hustého krému.</p><p>Korpusy podélně prokrojte, pláty promažte krémem a skládejte na sebe. Poslední vrstvu uhlaďte a dort bohatě ozdobte ovocem.</p><p>Do dortu můžete použít jakékoli oblíbené ovoce, skvělé jsou i ostružiny, na drobno nasekané jahody, nebo třeba kombinace borůvek a manga. Korpusy na dort upečte den předem, ráno pak dort sestavte a pomažte krémem, aby stihl ztuhnout. Zdobit můžete až před podáváním.</p>',
+        // rawMaterials: 125 g máslo + na vymazání formy, 2 ks citronová kůra, 225 g třtinový cukr, 4 ks vejce, 300 g polohrubá mouka, 1 lžička prášek do pečiva, ovoce maliny, ostružiny a borůvky na ozdobu
+        // Krém: 500 g mascarpone, 250 ml smetana ke šlehání, 500 g maliny
+        difficulty: 'střední',
+        time: 50,
+    },
+
+    {
+        id:49,
+        categoryId:4,
+        image: 'image49.jpg',
+        title: 'Mramorový dort s čokoládovou polevou',
+        description: '<p>Ve dvou malých miskách rozpusťte obě čokolády – ve vodní lázni nebo v mikrovlnné troubě.</p><p>Máslo a cukr utřete do pěny a poté po jednom zašlehejte vejce.</p><p>Mouku promíchejte s práškem do pečiva a už jen krátce a zlehka spojte s tekutou částí. Poté vmíchejte i podmáslí a těsto rozdělte na dvě části. Do jedné přimíchejte kakao a hořkou čokoládu, do druhé bílou.</p><p>Dortovou formu vyložte pečicím papírem. Střídavě do ní lžící přendejte těsta. Uhlaďte povrch a pečte v troubě předehřáté na 170 °C, asi 30 minut.</p><p>Našlehejte krémový sýr s mascarpone a cukrem. Vychladlý korpus prokrojte na tři pláty. Promažte je krémem a poté krémem potřete i celý dort. Dejte jej do chladu, aby krém dobře ztuhl.</p><p>Připravte polevu. Želatinu namočte do vody a nechte 5 minut bobtnat. Přidejte kondenzované mléko, cukr a ještě 70 ml vody, vše zahřejte těsně pod bod varu a odstavte. Do misky nalámejte čokoládu a přelijte přes ni horkou směs. Asi po 5 minutách, až čokoláda povolí, rozmíchejte. Nechte 10 minut chladnout.</p><p>Vychladlý dort položte na mřížku a přelijte čokoládovou polevou. Povrch uhlaďte a čokoládovou polevu volně nechte stékat přes okraj.</p>',
+        // rawMaterials: 50 g hořká čokoláda, 50 g bílá čokoláda, 200 g máslo, 200 g cukr krupice, 4 ks vejce, 250 g hladká mouka, 1 lžička prášek do pečiva, 100 ml podmáslí, 1 lžíce kakao
+        // Krém: 250 g krémový sýr, 250 g mascarpone, 200 g moučkový cukr
+        // Poleva: 10 g želatina plátková, 100 ml kondenzované mléko, 150 g cukr krupice, 70 ml voda, 175 g hořká čokoláda,
         difficulty: 'snadné',
         time: 90,
     },
 
     {
-        id:33,
+        id:50,
         categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
-        difficulty: 'snadné',
-        time: 90,
+        image: 'image50.jpg',
+        title: 'Red velvet dort',
+        description: '<p>Předehřejeme troubu na 180°. Vymažeme máslem kulaté formy na dorty (2 x 21 cm/ 8”) a vyprášíme s kakaovým práškem (POZOR! Ne kakaem připraveným na korpus).</p><p>Smícháme všechny suché ingredience v misce.</p><p>V další misce stlučeme máslo a cukr do hladka. Přidáme vejce, mícháme do hladka. K tekuté směsi přidáme olej, ocet, vanilkový extrakt, podmáslí a červené barvivo. Promícháme do hladka.</p><p>Přidáme suchou směs a mícháme dokud se ingredience nepropojí.</p><p>Těsto nalijeme do připravených, máslem vymazaných forem a pečeme 25-30 minut na stejné úrovni. (dokud se těsto nepřestane lepit)</p><p>Upečený korpus necháme minimálně 10 minut vychladnout.</p>',
+        // rawMaterials: Korpus - Suché ingredience: 400 g hladká mouka na dorty!, 10 g kakao neslazené, 5 g prášek do pečiva
+        // Korpus - Mokré ingredience: 115 g máslo změklé, 330 g cukr krupice, 2 ks vejce pokojové teploty, 250 ml podmáslí, 250 ml rostlinný olej, 1 lžička bílý vinný ocet, 2 lžička vanilkový extrakt, 1 lžíce potravinářské barvivo červené
+        // Krém: 400 g smetanový sýr Nejlepší je Phiadelphia Cream, 115 g máslo změklé, 1 lžička vanilkový extrakt, 450 g moučkový cukr,
+        difficulty: 'střední ',
+        time: 60,
     },
 
     {
-        id:33,
+        id:51,
         categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
+        image: 'image51.jpg',
+        title: 'Banánový koláč s karamelem',
+        description: '<p>Sušenky a preclíky rozmixujte na drobenku, přidejte cukr, přilijte zchladlé rozpuštěné máslo a pečlivě promíchejte. Směs napěchujte na dno a boky koláčové formy a nechte ztuhnout v ledničce.</p><p>Připravte karamel. Do kastrůlku nalijte vodu, přidejte cukr a na mírném plameni přiveďte k varu. Plamen stáhněte na minimum a nechte cukr zkaramelizovat. Karamel má tendenci se připalovat, tak ho hlídejte. Pak přidejte pokrájené studené máslo se smetanou a opatrně promíchejte - směs začne bublat, takže opět hlídejte. Omáčku nalijte na korpus a vraťte do ledničky, aby karamel lehce ztuhl.</p><p>Banány pokrájejte na plátky a naskládejte na karamel. Smetanu, creme fraiche a semínka z vanilkového lusku ušlehejte dotuha. Krém naneste na banány a ozdobte nasekanou čokoládou a pistáciemi.</p>',
+        // rawMaterials: Korpus: 200 g sušenky, 50 g preclíky, 50 g cukr krystal, 170 g máslo
+        // Karamel: 200 g cukr krystal, 50 ml voda, 80 g máslo, 125 ml smetana
+        // Náplň: 5 ks banány, 125 ml smetana ke šlehání, 1 ks vanilkový lusk, čokoláda na ozdobu, 250 ml sýr Creme Fraiche,
         difficulty: 'snadné',
-        time: 90,
+        time: 30,
     },
 
     {
-        id:33,
+        id:52,
         categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
-        difficulty: 'snadné',
-        time: 90,
-    },
-
-    {
-        id:33,
-        categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
-        difficulty: 'snadné',
-        time: 90,
-    },
-
-    {
-        id:33,
-        categoryId:4,
-        image: 'image33.jpg',
-        title: '',
-        description: '<p></p><p></p><p></p>',
-        // rawMaterials: 1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar,
-        difficulty: 'snadné',
-        time: 90,
+        image: 'image52.jpg',
+        title: 'Čokoládový dort s broskvemi',
+        description: '<p>Mléko a rozlámanou čokoládu rozpusťte na mírném ohni za stálého míchání a nechte zchladnout. Změklé máslo utřete s cukrem, skořicí a vejci na hladký krém, po částech do něj vmíchejte prochladlé čokoládové mléko a mouku prosetou s práškem do pečiva. Těsto vlijte do máslem vytřené a hrubou moukou vysypané dortové formy, vložte do předehřáté trouby a zvolna pečte asi 1 hodinu. Nechte zchladnout a dvakrát prokrojte. Z mléka a pudinkového prášku uvařte hustý pudink, vmíchejte do něj 25 g másla, postavte do studené lázně a míchejte do zchladnutí. Změklé máslo utřete s cukrem a rumem na hladký krém, po částech do něj zašlehejte pudink. Spodní díl dortu potřete krémem, posypte dvěma na kostičky nakrájenými broskvemi a opakujte v další vrstvě. Pak celý dort potřete krémem. Třetinu mandlí umelte a posypte jimi boky dortu. Povrch ozdobte mandlemi, potřete je dort-želé připraveným podle návodu, obložte mandlemi a nechte dobře vychladit.</p>',
+        // rawMaterials: těsto: 200 ml mléko, 100 g hořká čokoláda, 60 g máslo, 2 ks vejce, 180 g moučkový cukr, 1 lžička skořice - mletá, 250 g polohrubá mouka
+        // krém: 1 lžíce hnědý rum, 1 plechovka broskve, , 100 g mandle - loupané, želé dortové
+        difficulty: 'střední',
+        time: 60,
     },
 ]
 
