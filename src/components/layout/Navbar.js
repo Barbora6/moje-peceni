@@ -3,6 +3,7 @@ import { Link as RouterLink, } from 'react-router-dom'
 import {data_categories} from '../../data/data_categories'
 
 
+
 export const Navbar = () => {
 
   return <header>
@@ -14,10 +15,8 @@ export const Navbar = () => {
               
             }          
           )}
-
-      {/*
-      <Link component={RouterLink} to='/muffiny' sx={{color:'white'}}>Muffiny</Link>
-      <Link component={RouterLink} to='/cookies' sx={{color:'white'}}>Vánoční cukroví</Link> */}
     </Stack>
   </header>
 }
+
+
