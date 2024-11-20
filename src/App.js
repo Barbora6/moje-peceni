@@ -1,7 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import {MarbleCake} from'./pages/marbleCake/MarbleCake'
-import {Muffiny} from './pages/muffins/Muffiny'
-import {Cookies} from './pages/cookies/Cookies'
 import {Home} from './pages/home/Home'
 import {Error} from './pages/Error'
 import {OneRecipe} from './pages/OneRecipe'
@@ -22,9 +19,6 @@ export const App = () => {
     <Routes>
       <Route path='/' element={<SharedLayout/>}>
         <Route index element={<Home/> }/>
-        <Route path='/marbleCake' element={<MarbleCake/>}/>
-        <Route path='/muffiny' element={<Muffiny/>}/>
-        <Route path='/cookies' element={<Cookies/>}/>
         <Route path='*' element={<Error/>}/>
         <Route path='/OneRecipe/:id' element={<OneRecipe/>}/>
         <Route path='/category/:id' element={<Category/>}/>

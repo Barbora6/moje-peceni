@@ -1,6 +1,7 @@
+import { Slide } from "./Slide/Slide"
 
 export const Home = () => {
-  return <section>
-    <h1>Úvodní strana</h1>
-  </section>
+  return <>
+  <Slide/>
+  </>
 }
