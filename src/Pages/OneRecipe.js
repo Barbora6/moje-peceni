@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Typography} from '@mui/material';
+import { Container, Card, CardContent, CardMedia, Typography} from '@mui/material';
 import {recepies} from '../data/data_recepies'
 import {useParams } from "react-router-dom";
 
@@ -12,7 +12,7 @@ export const OneRecipe = () => {
 
   const{title, image, description, difficulty, time } = data  
 
-  return <> 
+  return <Container maxWidth='lg'>
           <Card key={id}>
           <CardMedia component='img'  width='100%'sx={{ Maxheight: '100%' }} src={`/pictures/${image}`}></CardMedia>
           <CardContent>
@@ -22,5 +22,5 @@ export const OneRecipe = () => {
             <Typography gutterBottom variant="p" component="div" paddingTop='12px' fontSize='16px' fontWeight='300'>Obtížnost:{difficulty} {time} min.</Typography>
           </CardContent>
           </Card>
- </>
+   </Container>
 }

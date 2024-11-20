@@ -1,19 +1,22 @@
+import { Typography, Box } from "@mui/material"
 
-const SlideItem = ({id, image, title, paragraph}) => {
-  return <div className='slides'>
-  <div id={id} className="slide slide-1">
+const SlideItem = ({image, title, paragraph}) => {
+  
+  
+  return <Box position='relative' height={600}>
+    <Box sx={{position: 'absolute', top:'0px', bottom:'0px', left: '0px', right:'0px', color:'white', zIndex:1,}}/>
       <div className="slide-img-wrapper">
       <img 
                 src={`/pictures_slides/${image}`} 
                 alt='' 
                 loading='lazy' />
       </div>
-      <div className="banner">
-          <h1 className='main-heading'>{title}</h1>
-          <p className='food-desc'>{paragraph}</p>
-      </div>
-  </div>
-  </div>
+      <Box sx={{position: 'absolute', top:'50%',left: '50%', transform: 'translate(-50%,-50%)', color:'white', zIndex:2}}>
+        <Typography variant="h4">{title}</Typography>
+          <Typography>{paragraph}</Typography>
+      </Box>
+  </Box>
+
 }
 
 export default SlideItem

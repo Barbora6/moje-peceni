@@ -28,12 +28,12 @@ export const Slide = () => {
 
 
     return <>
-  
-    {
+ <SlideItem {...dataSlider[0]}/>
+    {/* {
         dataSlider.map((item) => {
            return <SlideItem key={item.id} {...item}/>
         })
-    }
+    } */}
 
   </>
 }
