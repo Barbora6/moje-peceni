@@ -1,6 +1,6 @@
 import {data_categories} from '../data/data_categories';
 import {useParams } from "react-router-dom";
-import { Stack, ImageList, Typography } from '@mui/material'
+import { Container, Stack, ImageList, Typography } from '@mui/material'
 import {RecipeBox} from '../components/layout/RecipeBox'
 import {recepies} from '../data/data_recepies'
 
@@ -16,7 +16,8 @@ const categoryRecipes = recepies.filter((oneRecipe) =>{
 })
    
 
-  return <Stack spacing={4} mt={4}>
+  return <Container maxWidth='lg'>
+  <Stack spacing={4} mt={4}>
     <Typography variant='h4'>{data.title}</Typography>
     <ImageList
         variant='masonry'
@@ -31,5 +32,6 @@ const categoryRecipes = recepies.filter((oneRecipe) =>{
           )}
     </ImageList>
   </Stack>
+  </Container>
 
 }
