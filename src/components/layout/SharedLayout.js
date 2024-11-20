@@ -18,7 +18,7 @@ export const SharedLayout = () => {
     </Box>
     <Container maxWidth='lg'>
             <Outlet/>
+            <Footer/>  
     </Container>
-        <Footer/>  
   </>
 }
