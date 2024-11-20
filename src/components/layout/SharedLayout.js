@@ -16,9 +16,7 @@ export const SharedLayout = () => {
              </Container>
       </AppBar>
     </Box>
-    <Container maxWidth='lg'>
-            <Outlet/>
-            <Footer/>  
-    </Container>
+      <Outlet/>
+      <Footer/>  
   </>
 }
