@@ -1,6 +1,7 @@
 import './Slide.css'
-import { dataSlider } from '../../../data/data_slider'
+// import { dataSlider } from '../../../data/data_slider'
 import SlideItem from './SlideItem'
+import { data_categories } from '../../../data/data_categories'
 
 export const Slide = () => {
 
@@ -28,7 +29,7 @@ export const Slide = () => {
 
 
     return <>
- <SlideItem {...dataSlider[0]}/>
+ <SlideItem {...data_categories[0]}/>
     {/* {
         dataSlider.map((item) => {
            return <SlideItem key={item.id} {...item}/>

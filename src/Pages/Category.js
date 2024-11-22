@@ -19,6 +19,7 @@ const categoryRecipes = recepies.filter((oneRecipe) =>{
   return <Container maxWidth='lg'>
   <Stack spacing={4} mt={4}>
     <Typography variant='h4'>{data.title}</Typography>
+    <Typography>{data.paragraph}</Typography>
     <ImageList
         variant='masonry'
         cols={4}
@@ -33,5 +34,4 @@ const categoryRecipes = recepies.filter((oneRecipe) =>{
     </ImageList>
   </Stack>
   </Container>
-
 }
