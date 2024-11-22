@@ -8,9 +8,9 @@ export const Resource = () => {
       return oneRecipe.id === parseInt(id)
   })
 
-  const{resource} = data  
+  const{ingredients} = data  
     
   return <>
-        <ul>{resource}</ul>
+        <ul>{ingredients}</ul>
 </>
 }
