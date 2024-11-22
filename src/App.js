@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import {Home} from './pages/home/Home'
-import {Error} from './pages/Error'
-import {OneRecipe} from './pages/OneRecipe'
+// import {Error} from './pages/Error'
+import {OneRecipe} from './pages/recipe/OneRecipe'
 import {Category} from './pages/Category'
 import {SharedLayout} from './components/layout/SharedLayout'
 import CssBaseline from '@mui/material/CssBaseline';
@@ -19,12 +19,11 @@ export const App = () => {
     <Routes>
       <Route path='/' element={<SharedLayout/>}>
         <Route index element={<Home/> }/>
-        <Route path='*' element={<Error/>}/>
+        {/* <Route path='*' element={<Error/>}/> */}
         <Route path='/OneRecipe/:id' element={<OneRecipe/>}/>
         <Route path='/category/:id' element={<Category/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
   </>
-  
 }
