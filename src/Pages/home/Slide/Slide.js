@@ -3,7 +3,9 @@ import './Slide.css'
 import SlideItem from './SlideItem'
 import { data_categories } from '../../../data/data_categories'
 
+
 export const Slide = () => {
+console.log();
 
     // let current = 1;
 
