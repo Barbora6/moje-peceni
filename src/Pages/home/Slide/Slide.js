@@ -2,9 +2,12 @@ import "./Slide.css";
 // import { dataSlider } from '../../../data/data_slider'
 import SlideItem from "./SlideItem";
 import { data_categories } from "../../../data/data_categories";
+import { Button } from "@mui/material";
+import { useEffect, useState } from "react";
+import { isVisible } from "@testing-library/user-event/dist/utils";
 
 export const Slide = () => {
-  console.log();
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   // let current = 1;
 
@@ -28,14 +31,32 @@ export const Slide = () => {
   //     slideshow()
   // },1000);
 
+  const handleClick = () => {
+    setCurrentSlide(currentSlide + 1);
+  };
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      //assign interval to a variable to clear it.
+      /* na konci pole jdi na první položku znova */
+
+      setCurrentSlide((prev) => prev + 1);
+    }, 2000);
+
+    return () => clearInterval(intervalId); //This is important
+  }, []);
+
   return (
     <>
-      <SlideItem {...data_categories[0]} />
-      {/* {
-        dataSlider.map((item) => {
-           return <SlideItem key={item.id} {...item}/>
-        })
-    } */}
+      {data_categories.map((item, index) => {
+        return (
+          <SlideItem
+            key={item.id}
+            {...item}
+            isVisible={index === currentSlide}
+          />
+        );
+      })}
     </>
   );
 };

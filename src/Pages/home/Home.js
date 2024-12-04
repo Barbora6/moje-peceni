@@ -1,4 +1,4 @@
-import { Slide } from "./Slide/Slide";
+import { Slide } from "./slide/Slide";
 
 export const Home = () => {
   return (

@@ -1,8 +1,21 @@
 import { Typography, Box } from "@mui/material";
 
-const SlideItem = ({ image, title, paragraph }) => {
+const SlideItem = ({ image, title, paragraph, isVisible }) => {
   return (
-    <Box position="relative" height={600}>
+    <Box
+      position="absolute"
+      height={800}
+      sx={{
+        position: "absolute",
+        top: "0px",
+        bottom: "0px",
+        left: "0px",
+        right: "0px",
+        opacity: isVisible ? 1 : 0,
+        visibility: isVisible ? "visible" : "hidden",
+        transition: "opacity 0.3s, visibility 0.3s"
+      }}
+    >
       <Box
         sx={{
           position: "absolute",
@@ -10,8 +23,8 @@ const SlideItem = ({ image, title, paragraph }) => {
           bottom: "0px",
           left: "0px",
           right: "0px",
-          color: "white",
-          zIndex: 1,
+          backgroundColor: "rgba(0,0,0,0.5)",
+          zIndex: 1
         }}
       />
       <div className="slide-img-wrapper">
@@ -24,7 +37,7 @@ const SlideItem = ({ image, title, paragraph }) => {
           left: "50%",
           transform: "translate(-50%,-50%)",
           color: "white",
-          zIndex: 2,
+          zIndex: 2
         }}
       >
         <Typography
