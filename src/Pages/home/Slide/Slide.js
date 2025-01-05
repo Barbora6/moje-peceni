@@ -2,9 +2,8 @@ import "./Slide.css";
 // import { dataSlider } from '../../../data/data_slider'
 import SlideItem from "./SlideItem";
 import { data_categories } from "../../../data/data_categories";
-import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
-import { isVisible } from "@testing-library/user-event/dist/utils";
+
 
 export const Slide = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
