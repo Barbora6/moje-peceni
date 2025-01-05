@@ -1,14 +1,15 @@
 import { Container, CardMedia, Typography, Stack } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { recepies } from "../../data/data_recepies";
 import { useParams } from "react-router-dom";
 import { Ingredients } from "./Ingredients";
 import { GiCook } from "react-icons/gi";
 import { FaClock } from "react-icons/fa6";
+import { useAppContext } from "../../context/AppContext";
 
 export const OneRecipe = () => {
+  const { dataRecepies } = useAppContext();
   let { id } = useParams();
-  const data = recepies.find((oneRecipe) => {
+  const data = dataRecepies.find((oneRecipe) => {
     return oneRecipe.id === parseInt(id);
   });
 

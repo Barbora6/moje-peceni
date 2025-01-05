@@ -1,4 +1,4 @@
-export const recepies = [
+export const dataRecepies = [
   {
     id: 1,
     categoryId: 1,
@@ -9,7 +9,7 @@ export const recepies = [
     ingredients:
       "400 g polohrubá mouka, 1 balíček prášek do pečiva, 1 špetka soli, 200 g třtinový cukr, 3 snítka citronový tymián + na dokončení, 2 ks vejce, 125 ml slunečnicový olej, 200 ml mléko, citronová kůra z 1 citronu, pomerančová kůra z 1 pomeranče, máslo na vymazání formy, hrubá mouka na vysypání formy, kandované ovoce na dokončení, topping: 150 g moučkový cukr, 1 lžíce horká voda 1 - 2 lžíce, 1 lžíce citronová šťáva, 1 lžíce pomerančová šťáva",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const recepies = [
       "3 hrnek polohrubá mouka, 2 lžička prášek do pečiva, 1 lžička sůl, 1 hrnek rostlinný olej, 2 hrnek cukr, 3 ks vejce, 1 hrnek mléko, 1 lžička vanilkový extrakt, 1 ks pomerančová kůra,",
     topping: "0,50 hrnek pomerančová šťáva, 0,60 hrnek cukr",
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -35,7 +35,7 @@ export const recepies = [
     ingredients:
       "1,50 hrnek mouka, 0,50 lžička sůl, 0,25 lžička jedlá soda, 0,50 balíček rozpuštěné máslo, 1,50 hrnek cukr, 4 ks vejce, 1 lžička vanilkový extrakt, 0,60 hrnek bílý jogurt, moučkový cukr na poprášení",
     difficulty: "snadné",
-    time: 60,
+    time: 60
   },
 
   {
@@ -48,7 +48,7 @@ export const recepies = [
     ingredients:
       "125 g hladká mouka, 5 ks vejce, 0,25 l rostlinný olej, 250 g moučkový cukr, 1 ks vanilkový cukr, 125 g polohrubá mouka, 1 ks prášek do pečiva, 0,25 l vaječný koňak",
     difficulty: "snadné",
-    time: "neuvedeno",
+    time: "neuvedeno"
   },
 
   {
@@ -61,7 +61,7 @@ export const recepies = [
     ingredients:
       "2,5 hrnek mouka, 2,5 lžička prášek do pečiva, 0,50 lžička sůl, 1 hrnek rozpuštěné máslo, 1,50 hrnek cukr, 0,50 lžička vanilkový extrakt, 3 ks vejce, 1 hrnek mléko, 0,75 hrnek bílá čokoláda jemně nasekaná",
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -74,7 +74,7 @@ export const recepies = [
     ingredients:
       "160 g máslo, 1 špetka soli, moučkový cukr na zasypání, 1 lžička vanilkový cukr, 200 g hrubá mouka, 500 g měkký tvaroh polotučný, citron šťáva a kůra, 1 ks prášek do pečiva, 4 ks sníh z bílku, 4 ks žloutky, 220 g třtinový cukr",
     difficulty: "střední",
-    time: 90,
+    time: 90
   },
 
   {
@@ -87,7 +87,7 @@ export const recepies = [
     ingredients:
       "160 g máslo, 180 g celozrnná mouka hladká, 1 balíček prášek do pečiva, 200 g třtinový cukr, 3 ks vejce, 6 ks meruňky 6 - 8 kusů, 1 hrnek borůvky",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
   {
     id: 8,
@@ -99,7 +99,7 @@ export const recepies = [
     ingredients:
       "180 g polohrubá mouka, 80 g ovesné vločky jemně mleté, 3 lžíce třtinový cukr, 3 lžička prášek do pečiva, 1 lžíce lněná semínka, 1 lžička skořice - mletá, 2 ks jablka, 2 ks vejce, 180 ml mléko, 60 g rozpuštěné máslo",
     difficulty: "snadné",
-    time: 10,
+    time: 10
   },
   {
     id: 9,
@@ -111,7 +111,7 @@ export const recepies = [
     ingredients:
       "Na 12 kousků muffinů: 200 g hladká mouka, 150 g cukr krupice, 150 ml smetana ke šlehání, 1 ks vejce, 70 ml olej, 150 g brusinky, 100 g mandle sekané, 2 lžička prášek do pečiva, 0,50 lžička jedlá soda, 1 špetka sůl, mandlové lupínky na ozdobu",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
   {
     id: 10,
@@ -123,7 +123,7 @@ export const recepies = [
     ingredients:
       "500 g mrkev, 5 ks vejce, 150 g třtinový cukr, 200 g mleté vlašské ořechy, 200 g hladká mouka, 1 lžíce prášek do pečiva, 1 lžíce jedlá soda, 1 špetka sůl, skořice - mletá, 200 ml slunečnicový olej, krém: 500 g smetanový sýr čerstvý, 100 g moučkový cukr, 4 lžíce máslo změklé, 1 lžíce citronová šťáva",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
   {
     id: 11,
@@ -135,7 +135,7 @@ export const recepies = [
     ingredients:
       "2 hrnek polohrubá mouka, 1 lžička prášek do pečiva, 1 hrnek třtinový cukr, 1 lžička vanilkový extrakt, 0,50 hrnek slunečnicový olej, 1 hrnek podmáslí, 200 g borůvky maliny, ostružiny",
     difficulty: "snadné",
-    time: 35,
+    time: 35
   },
   {
     id: 12,
@@ -147,7 +147,7 @@ export const recepies = [
     ingredients:
       "280 g hladká mouka, 2 lžička prášek do pečiva, 0,50 lžička jedlá soda, 0,50 lžička soli, 1 špetka skořice, 100 g dýňová semínka, 50 ks pistácie semínka, 2 ks vejce, 120 g cukr krupice, 70 g máslo, 2 lžíce olivový olej, 1 lžička citronová kůra, 1 hrst baby špenát",
     difficulty: "snadné",
-    time: 50,
+    time: 50
   },
   {
     id: 13,
@@ -159,7 +159,7 @@ export const recepies = [
     ingredients:
       "na 2 plechy, 200 g hladká mouka + na pomoučnění, 100 g špaldová mouka jemně mletá, 80 g moučkový cukr, 120 g oříšky lískové, jemně mleté, 240 g máslo studené, pomerančová kůra z 1 pomeranče, nutela na promazání",
     difficulty: "snadné",
-    time: 20,
+    time: 20
   },
 
   {
@@ -172,7 +172,7 @@ export const recepies = [
     ingredients:
       "500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citronu, 1 špetka soli, vanilková esence, Na polevu: 2 ks bílek, 4 lžíce citronová šťáva nebo 4 lžíce rumu, 500 g moučkový cukr, cukrářské zdobení nebo krystalový cukr",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
 
   {
@@ -185,7 +185,7 @@ export const recepies = [
     ingredients:
       "na 2 plechy, 250 g hladká mouka + na pomoučnění, 90 g moučkový cukr, 1 lžíce kokos + na posypání, 140 g máslo studené, 2 ks žloutek, citronová kůra z 1 chemicky neošetrřeného citronu, čokoláda na namáčení",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -198,7 +198,7 @@ export const recepies = [
     ingredients:
       "Těsto: 120 g máslo, 3 lžíce mléko, 120 g moučkový cukr, 6 lžíce hnědý rum, 300 g dětské piškoty drcené, 2 lžíce kakao, Náplň: 120 g máslo, 120 g moučkový cukr + na vysypání formiček, 2 žloutek, hnědý rum, dětské piškoty na přiklopení",
     difficulty: "snadné",
-    time: 60,
+    time: 60
   },
 
   {
@@ -211,7 +211,7 @@ export const recepies = [
     ingredients:
       "500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citrónu, 1 špetka soli",
     difficulty: "snadné",
-    time: 20,
+    time: 20
   },
 
   {
@@ -224,7 +224,7 @@ export const recepies = [
     ingredients:
       "na 1 plech, 1 ks bílek, 1 špetka soli, 140 g moučkový cukr, 170 g mleté mandle, citronová kůra z 1 citronu, cukr krystal na obalení, mandle na zdobení",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -237,7 +237,7 @@ export const recepies = [
     ingredients:
       "600 g máslo + na formu, 60 g arašídové máslo, 125 g třtinový cukr, 1 lžička citronová kůra jemně nastrouhaná, 4 ks vejce, 100 g mleté mandle jemně mleté, + na formu, 160 g mák část může být nemletá",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
 
   {
@@ -250,7 +250,7 @@ export const recepies = [
     ingredients:
       "na 2 plechy, 250 g mleté mandle, 250 g moučkový cukr, 50 g kakao, 1 lžička skořice, 0,50 lžička hřebíček mletý, 2 ks bílek, 3 lžíce mandlový likér, cukr krystal na posypání",
     difficulty: "snadné",
-    time: 20,
+    time: 20
   },
 
   {
@@ -263,7 +263,7 @@ export const recepies = [
     ingredients:
       "180 g špaldová mouka jemně mletá, 1 lžička prášek do pečiva, 1 špetka sůl, 2 lžička skořice + na dokončení, 130 g máslo změklé, 110 g třtinový cukr jemně mletý, 2 ks vejce, 100 ml mléko, 12 ks medové perníčky malé, na ozdobení",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -276,7 +276,7 @@ export const recepies = [
     ingredients:
       "Na těsto: 500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citronu, 1 špetka sůl, 1 balíček vanilkový cukr 1 - 2 sáčky, vanilková esence, Na krém: 100 g vlašské ořechy, 300 g máslo, 60 g hořká čokoláda nastrouhaná, 2 ks žloutek, 100 g moučkový cukr, 2 lžíce hnědý rum,čokoládová poleva",
     difficulty: "snadné",
-    time: 20,
+    time: 20
   },
 
   {
@@ -289,7 +289,7 @@ export const recepies = [
     ingredients:
       "Na těsto: 500 g hladká mouka, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citrónu, 200 g lískové oříšky strouhané, 1 špetka sůl, mouka na podsypání, marmeláda citrusová, moučkový cukr na posypání",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -302,7 +302,7 @@ export const recepies = [
     ingredients:
       "Těsto: 330 g bezlepková směs jizerka zlatá, 200 g mleté vlašské ořechy, 150 g moučkový cukr, 250 g máslo změklé, 1 ks žloutek, 1 ks vejce, 2 lžíce kakao, 0,50 lžička skořice - mletá, 100 g čokoláda rozpuštěná, nebo poleva, Vanilkový máslový krém: 3 ks žloutek, 120 g moučkový cukr, 375 g máslo, tuzemák dle chuti,vanilkový lusk dřeň",
     difficulty: "snadné",
-    time: 75,
+    time: 75
   },
 
   {
@@ -315,7 +315,7 @@ export const recepies = [
     ingredients:
       "500 g hladká mouka + na podsypání, 250 g máslo, 100 g moučkový cukr, 1 ks vejce, citronová kůra z 1 citronu, 1 špetka sůl, 10 lžíce mleté vlašské ořechy, 200 g hořká čokoláda nastrouhaná, čokoládová poleva",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
 
   {
@@ -328,7 +328,7 @@ export const recepies = [
     ingredients:
       "Těsto: 210 g bezlepková směs jizerka hladká + na poprášení, 70 g moučkový cukr, 20 g kakao, 140 g máslo, 40 g mleté ořechy, 2 špetka skořice - mletá, 300 g čokoládová poleva a ořechy na dokončení, Máslový čokoládový krém: 3 ks žloutky, 120 g moučkový cukr, 375 g máslo - 500 g, tuzemák dle chuti, 4 lžíce kakao - 5",
     difficulty: "snadné",
-    time: 70,
+    time: 70
   },
 
   {
@@ -341,7 +341,7 @@ export const recepies = [
     ingredients:
       "125 g máslo, 180 g cukr krupice, 1 ks vejce, 1 lžička vanilkový extrakt, 380 g hladká mouka + na pomoučnění, 2 lžička prášek do pečiva, čokoláda + červené lentilky na dozdobení",
     difficulty: "snadné",
-    time: 70,
+    time: 70
   },
 
   {
@@ -354,7 +354,7 @@ export const recepies = [
     ingredients:
       "250 g hladká mouka, 100 g moučkový cukr, 1 lžička zázvor - mletý sušený, 1 lžička skořice, 1 špetka soli, 125 g máslo studené, 1 lžíce medu, 1 ks žloutek",
     difficulty: "snadné",
-    time: 100,
+    time: 100
   },
 
   {
@@ -367,7 +367,7 @@ export const recepies = [
     ingredients:
       "2 ks vejce, 3 lžíce třtinový cukr, 1 ks vanilkový cukr bio, 1 lžíce citronová šťáva, 85 g máslo + na vymazání formiček",
     difficulty: "snadné",
-    time: 40,
+    time: 40
   },
 
   {
@@ -380,7 +380,7 @@ export const recepies = [
     ingredients:
       "Těsto: 220 g hladká mouka, 60 g moučkový cukr, 90 g mák mletý, 150 g máslo, 2 ks žloutky, 1 lžíce kakao dle barvy, není nutné, cca. Dále: švestková povidla",
     difficulty: "snadné",
-    time: 240,
+    time: 240
   },
 
   {
@@ -393,7 +393,7 @@ export const recepies = [
     ingredients:
       "Na 2 plechy: 200 g hladká mouka, 120 g moučkový cukr, 100 g kakao, 150 g máslo, 2 ks vejce, 150 g mleté mandle, 1 lžička prášek do pečiva, 1 lžička jedlá soda, 1 lžička vanilkový extrakt, 1 špetka sůl, cukrářské zdobení dle fantazie - hvězdičky, vločky...",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -406,7 +406,7 @@ export const recepies = [
     ingredients:
       "150 g kokosová smetana, 90 g kokos, 70 g med, 2 lžíce kokosový olej, 2 lžíce kokosová moučka",
     difficulty: "snadné",
-    time: "neuvedeno",
+    time: "neuvedeno"
   },
 
   {
@@ -419,7 +419,7 @@ export const recepies = [
     ingredients:
       "1 balení sušenky máslové, 100 g máslo, 100 g krémový sýr, 250 g tvaroh, 150 g cukr krupice, 2 ks vejce, 1 lžíce hladká mouka, 1 ks mango, 50 g cukr, 1 balení agar-agar",
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -432,7 +432,7 @@ export const recepies = [
     ingredients:
       "16 ks kokosová tyčinka Pribináček Tyčinka kokos, 250 g vanilkový pribináček, 250 g vanilkový pribináček Smetanový, 80 g třtinový cukr, 1 balíček vanilkový cukr, 4 lžíce borůvkový džem, 200 ml smetana ke šlehání, 7 g želatina plátková, 1 hrst jahody, 1 hrst maliny, 1 hrst borůvky",
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -446,7 +446,7 @@ export const recepies = [
       "Korpus: 6 ks vejce, 4 ks žloutek, 250 g cukr krupice, 250 g hladká mouka, 100 ml olej, 100 ml mléko, 1 lžička vanilkový extrakt, 1 špetka soli, potravinářské barvivo gelové potravinářské barvy (žlutá, oranžová, červená, zelená, modrá, fialová)",
     // cream: '400 g krémový sýr např. Lučina, 250 g mascarpone, 125 g moučkový cukr prosetý, 500 ml smetana ke šlehání',
     difficulty: "snadné",
-    time: 70,
+    time: 70
   },
 
   {
@@ -459,7 +459,7 @@ export const recepies = [
     ingredients:
       "4 ks bílek, 220 g moučkový cukr + 1 lžíce do šlehačky + na poprášení, 2 lžíce kukuřičný škrob, 2 lžička vinný ocet, 200 ml smetana ke šlehání, jahody na dozdobení",
     difficulty: "snadné",
-    time: 100,
+    time: 100
   },
 
   {
@@ -472,7 +472,7 @@ export const recepies = [
     ingredients:
       "Korpus: 130 g sušenky, 4 lžíce rozpuštěné máslo, 3 lžíce cukr, Tvarohová náplň: 500 g měkký tvaroh, 100 g řecký jogurt - pravý nebo zakysanka, 4 lžíce cukr, 1 lžička vanilka (já mám vanilkovou pastu - rozemleté lusky s cukrem), 1 lžička vanilkový extrakt, 1 ks vejce, 2 ks bílek, 3 lžíce hladká mouka,     Citronová náplň: 300 g cukr krystal, 50 g škrob, 300 ml voda, 150 ml citronová šťáva, 2 lžička citronová kůra, 3 ks žloutek, 50 g máslo",
     difficulty: "střední",
-    time: 75,
+    time: 75
   },
 
   {
@@ -485,7 +485,7 @@ export const recepies = [
     ingredients:
       "Těsto: 6 ks vejce, 200 g cukr, 150 ml slunečnicový olej, 400 g polohrubá mouka, 2 lžička prášek do pečiva, 1 špetka sůl, Krém: 250 g mascarpone, 125 g krémový sýr Philadelphia, 200 ml smetana ke šlehání, 100 g třtinový cukr, 200 g maliny, tymián, moučkový cukr",
     difficulty: "snadné",
-    time: 35,
+    time: 35
   },
 
   {
@@ -499,7 +499,7 @@ export const recepies = [
       "Korpus: 350 g hladká mouka, 330 g hnědý cukr, 2 lžička zázvor - mletý, 2 lžička skořice - mletá, 1 lžička hřebíček mletý, 1 lžíce prášek do pečiva, 1 lžička jedlá soda, 0,50 lžička sůl, 200 g máslo studené, 3 ks vejce, 2 lžíce melasa, 200 ml mléko, 1 lžíce pomerančová šťáva a jemně nastrouhaná kůra, 3 lžíce kandovaný zázvor, medové perníčky na odzdobení",
     //cream: '400 g krémový sýr Philadephia, 0,50 lžička skořice, 400 ml smetana ke šlehání, 200 g moučkový cukr',
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -513,7 +513,7 @@ export const recepies = [
       "300 ml mléko, 200 g cukr krupice, 150 g třtinový cukr, 2 lžička vanilkový extrakt, 250 g máslo, 200 g hořká čokoláda, 2 ks vejce, 300 g hladká mouka, 1 ks prášek do pečiva, 50 g kakao holandské",
     //cream: 250 g máslo, 150 g moučkový cukr, 200 g salko slazené karamelové, 1 lžička hrubé soli,Medové plástve (Honeycomb): 440 g cukr krupice, 80 g medu, 80 ml vody, 1 lžíce jedlé sody,
     difficulty: "snadné",
-    time: 150,
+    time: 150
   },
 
   {
@@ -527,7 +527,7 @@ export const recepies = [
       "na formu o prům. 20 cm, 150 g mrkev, 200 g banány oloupané, 150 g ananasový kompot bez nálevu, 60 g vlašské ořechy, 40 g pistácie, 3 ks vejce, 130 ml slunečnicový olej, 270 g hladká mouka, 1 balení prášek do pečiva, 1 lžička skořice, 200 g třtinový cukr, máslo na vymazání formy",
     //cream: '600 g smetanový sýr např. Philadelphia, 100 g moučkový cukr, 1 lžíce citronová šťáva, na ozdobu, 2 ks mrkev větší, 1 šálek cukr, 1 hrst pistácie, máta lístky',
     difficulty: "snadné",
-    time: 80,
+    time: 80
   },
 
   {
@@ -541,7 +541,7 @@ export const recepies = [
       "Korpus: 250 g mrkev, 1 ks jablko, 100 g špaldová mouka, 2 ks vejce, 50 g třtinový cukr, 120 g bílý jogurt netučný, 50 g flora nebo jiný rostlinný tuk rozpuštěný, 1 lžička prášku do pečiva, 1 lžička skořice, 25 g vlašské ořechy mleté",
     //cream: '250 g nízkotučný tvaroh, třtinový cukr třtinový moučkový cukr, 2 citronová šťáva, rozinky',
     difficulty: "snadné",
-    time: 60,
+    time: 60
   },
 
   {
@@ -554,7 +554,7 @@ export const recepies = [
     ingredients:
       "na formu o prům. 20 cm, 170 g máslo změklé, 170 g třtinový cukr, 3 ks vejce, 300 g hladká mouka, 2 lžička prášek do pečiva, 3 lžíce strouhaný kokos, 2 ks mango 250 g na pyré + 80 g nasekat, 400 g mascarpone, 3 lžíce moučkový cukr, 1 hrst kokosové hoblinky",
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -568,7 +568,7 @@ export const recepies = [
       "Na korpus: 400 g baby špenát nebo mražený špenát, 3 ks vejce, 1 šálek moučkový cukr, 0,75 šálek řepkový olej nebo slunečnicový, 2 šálek hladká mouka, 2,50 lžička prášek do pečiva, 2 lžíce citronová šťávy, citronová kůra z jednoho citronu",
     //cream: '250 ml smetana ke šlehání, 125 g mascarpone, 1,50 lžíce moučkový cukr, 1 lžička vanilkový extrakt nebo citronová šťáva',
     difficulty: "snadné",
-    time: 60,
+    time: 60
   },
 
   {
@@ -582,7 +582,7 @@ export const recepies = [
       "4 ks bílek, 220 g moučkový cukr + na posypání, 2 lžíce kukuřičný škrob, 2 lžička vinný ocet, čerstvé ovoce sezónní, vyloupané nesolené pistacie na posypání, máta na dozdobení",
     //cream: '4 ks žloutek, 6 lžíce moučkový cukr, 200 ml mléko, 400 ml smetana ke šlehání, 4 lžíce kukuřičný škrob, 4 lžíce amaretto',
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -596,7 +596,7 @@ export const recepies = [
       "Korpus: sušenky 120-200g bez náplně (např. Bebe), 4 lžíce mleté mandle (volitelné, ale doporučené), 4 lžíce rozpuštěné máslo, 1 lžička mandlový extrakt, 3 lžíce cukr nebo dle chuti",
     //cream: '500 g měkký tvaroh, 150 g řecký jogurt - pravý nebo zakysaná smetana, 5 lžíce cukr, 1 lžička mandlový extrakt, 3 lžíce hladká mouka, 3 ks vejce, Malinová směs: 1 hrnek maliny, 3 lžíce cukr, mandle plátky',
     difficulty: "střední",
-    time: 70,
+    time: 70
   },
 
   {
@@ -611,7 +611,7 @@ export const recepies = [
     //cream: '300 g jahody, 150 g maliny, 200 g bílá čokoláda, 1 kelímek tvaroh, 1 kelímek zakysaná smetana, 1 kelímek smetana ke šlehání, 1 balíček želatina v prášku',
     //Ozdoba: 1 balíček gumové medvídky Pedro Frujty Superželé Ovobobule, 200 g jahody, 150 g maliny,
     difficulty: "snadné",
-    time: 120,
+    time: 120
   },
 
   {
@@ -625,7 +625,7 @@ export const recepies = [
       "125 g máslo + na vymazání formy, 2 ks citronová kůra, 225 g třtinový cukr, 4 ks vejce, 300 g polohrubá mouka, 1 lžička prášek do pečiva, ovoce maliny, ostružiny a borůvky na ozdobu",
     //cream: '500 g mascarpone, 250 ml smetana ke šlehání, 500 g maliny',
     difficulty: "střední",
-    time: 50,
+    time: 50
   },
 
   {
@@ -640,7 +640,7 @@ export const recepies = [
     //cream: '250 g krémový sýr, 250 g mascarpone, 200 g moučkový cukr',
     // Poleva: 10 g želatina plátková, 100 ml kondenzované mléko, 150 g cukr krupice, 70 ml voda, 175 g hořká čokoláda,
     difficulty: "snadné",
-    time: 90,
+    time: 90
   },
 
   {
@@ -654,7 +654,7 @@ export const recepies = [
       "Korpus - Suché ingredience: 400 g hladká mouka na dorty!, 10 g kakao neslazené, 5 g prášek do pečiva, Korpus - Mokré ingredience: 115 g máslo změklé, 330 g cukr krupice, 2 ks vejce pokojové teploty, 250 ml podmáslí, 250 ml rostlinný olej, 1 lžička bílý vinný ocet, 2 lžička vanilkový extrakt, 1 lžíce potravinářské barvivo červené",
     //cream: '400 g smetanový sýr Nejlepší je Phiadelphia Cream, 115 g máslo změklé, 1 lžička vanilkový extrakt, 450 g moučkový cukr',
     difficulty: "střední ",
-    time: 60,
+    time: 60
   },
 
   {
@@ -668,7 +668,7 @@ export const recepies = [
       "Korpus: 200 g sušenky, 50 g preclíky, 50 g cukr krystal, 170 g máslo, Karamel: 200 g cukr krystal, 50 ml voda, 80 g máslo, 125 ml smetana",
     //cream: '5 ks banány, 125 ml smetana ke šlehání, 1 ks vanilkový lusk, čokoláda na ozdobu, 250 ml sýr Creme Fraiche',
     difficulty: "snadné",
-    time: 30,
+    time: 30
   },
 
   {
@@ -682,6 +682,6 @@ export const recepies = [
       "těsto: 200 ml mléko, 100 g hořká čokoláda, 60 g máslo, 2 ks vejce, 180 g moučkový cukr, 1 lžička skořice - mletá, 250 g polohrubá mouka",
     //cream: '1 lžíce hnědý rum, 1 plechovka broskve, , 100 g mandle - loupané, želé dortové',
     difficulty: "střední",
-    time: 60,
-  },
+    time: 60
+  }
 ];

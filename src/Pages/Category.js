@@ -1,16 +1,16 @@
-import { data_categories } from "../data/data_categories";
 import { useParams } from "react-router-dom";
 import { Container, Stack, ImageList, Typography } from "@mui/material";
 import { RecipeBox } from "../components/layout/RecipeBox";
-import { recepies } from "../data/data_recepies";
+import { useAppContext } from "../context/AppContext";
 
 export const Category = () => {
+  const { dataCategories, dataRecepies } = useAppContext();
   let { id } = useParams();
-  const data = data_categories.find((oneRecipe) => {
+  const data = dataCategories.find((oneRecipe) => {
     return oneRecipe.id === parseInt(id);
   });
 
-  const categoryRecipes = recepies.filter((oneRecipe) => {
+  const categoryRecipes = dataRecepies.filter((oneRecipe) => {
     return oneRecipe.categoryId === parseInt(id);
   });
 

@@ -1,12 +1,11 @@
 import "./Slide.css";
-// import { dataSlider } from '../../../data/data_slider'
 import SlideItem from "./SlideItem";
-import { data_categories } from "../../../data/data_categories";
 import { useEffect, useState } from "react";
-
+import { useAppContext } from "../../../context/AppContext";
 
 export const Slide = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const { dataCategories } = useAppContext();
 
   // let current = 1;
 
@@ -30,9 +29,9 @@ export const Slide = () => {
   //     slideshow()
   // },1000);
 
-  const handleClick = () => {
-    setCurrentSlide(currentSlide + 1);
-  };
+  // const handleClick = () => {
+  //   setCurrentSlide(currentSlide + 1);
+  // };
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -47,7 +46,7 @@ export const Slide = () => {
 
   return (
     <>
-      {data_categories.map((item, index) => {
+      {dataCategories.map((item, index) => {
         return (
           <SlideItem
             key={item.id}

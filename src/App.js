@@ -9,21 +9,24 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
+import { AppProvider } from "./context/AppContext";
 
 export const App = () => {
   return (
     <>
       <CssBaseline />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<SharedLayout />}>
-            <Route index element={<Home />} />
-            <Route path="*" element={<Error />} />
-            <Route path="/OneRecipe/:id" element={<OneRecipe />} />
-            <Route path="/category/:id" element={<Category />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <AppProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<SharedLayout />}>
+              <Route index element={<Home />} />
+              <Route path="*" element={<Error />} />
+              <Route path="/OneRecipe/:id" element={<OneRecipe />} />
+              <Route path="/category/:id" element={<Category />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </AppProvider>
     </>
   );
 };

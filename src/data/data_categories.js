@@ -1,4 +1,4 @@
-export const data_categories = [
+export const dataCategories = [
   {
     id: 1,
     title: "Bábovky",

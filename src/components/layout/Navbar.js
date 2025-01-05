@@ -1,15 +1,17 @@
 import { Link, Stack } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { data_categories } from "../../data/data_categories";
+import { useAppContext } from "../../context/AppContext";
 
 export const Navbar = () => {
+  const { dataCategories } = useAppContext();
+
   return (
     <header>
       <Stack direction={"row"} gap={4}>
         <Link component={RouterLink} to="/" sx={{ color: "white" }}>
           Domů
         </Link>
-        {data_categories.map(({ id, title }) => {
+        {dataCategories.map(({ id, title }) => {
           return (
             <Link
               key={id}
