@@ -23,7 +23,7 @@ const SlideItem = ({ image, title, paragraph, isVisible }) => {
           bottom: "0px",
           left: "0px",
           right: "0px",
-          backgroundColor: "rgba(0,0,0,0.5)",
+          backgroundColor: "rgba(0,0,0,0.1)",
           zIndex: 1
         }}
       />
