@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./Pages/home/Home";
-import { Error } from "./Pages/Error";
-import { OneRecipe } from "./Pages/recipe/OneRecipe";
-import { Category } from "./Pages/Category";
+import { Home } from "./pages/home/Home";
+import { Error } from "./pages/Error";
+import { OneRecipe } from "./pages/recipe/OneRecipe";
+import { Category } from "./pages/Category";
 import { SharedLayout } from "./components/layout/SharedLayout";
 import CssBaseline from "@mui/material/CssBaseline";
 import "@fontsource/roboto/300.css";
