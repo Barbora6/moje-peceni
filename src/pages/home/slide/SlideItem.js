@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 
-const SlideItem = ({ image, title, paragraph, isVisible }) => {
+const SlideItem = ({ image, title, description, isVisible }) => {
   return (
     <Box
       position="absolute"
@@ -48,7 +48,7 @@ const SlideItem = ({ image, title, paragraph, isVisible }) => {
         >
           {title}
         </Typography>
-        {/* <Typography>{paragraph}</Typography> */}
+        {/* <Typography>{description}</Typography> */}
       </Box>
     </Box>
   );
