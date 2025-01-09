@@ -10,6 +10,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { AppProvider } from "./context/AppContext";
+import { Form } from "./pages/form/Form";
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
               <Route path="*" element={<Error />} />
               <Route path="/OneRecipe/:id" element={<OneRecipe />} />
               <Route path="/category/:id" element={<Category />} />
+              <Route path="/form" element={<Form />} />
             </Route>
           </Routes>
         </BrowserRouter>

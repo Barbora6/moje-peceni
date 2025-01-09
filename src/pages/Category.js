@@ -18,7 +18,7 @@ export const Category = () => {
     <Container maxWidth="lg">
       <Stack spacing={4} mt={4}>
         <Typography variant="h4">{data.title}</Typography>
-        <Typography>{data.paragraph}</Typography>
+        <Typography>{data.description}</Typography>
         <ImageList variant="masonry" cols={4} rowHeight={240} gap={12}>
           {categoryRecipes.map((item) => {
             return <RecipeBox key={item.id} {...item} />;
