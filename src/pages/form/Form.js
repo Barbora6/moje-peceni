@@ -3,6 +3,7 @@ import {
   Autocomplete,
   Button,
   Container,
+  InputAdornment,
   MenuItem,
   Stack,
   TextField
@@ -10,6 +11,7 @@ import {
 import { useState } from "react";
 import { supabase } from "../../context/utils";
 import { Check } from "@mui/icons-material";
+import { useAppContext } from "../../context/AppContext";
 
 export const Form = () => {
   const difficultyOptions = ["snadné", "středně těžké", "těžké"];
@@ -36,24 +38,7 @@ export const Form = () => {
     setStatus(status);
   };
 
-  const categories = [
-    {
-      id: 1,
-      category: "Bábovka"
-    },
-    {
-      id: 2,
-      category: "Muffiny"
-    },
-    {
-      id: 3,
-      category: "Vánoční cukroví"
-    },
-    {
-      id: 4,
-      category: "Dorty"
-    }
-  ];
+  const { dataCategories } = useAppContext();
 
   return (
     <Container maxWidth="sm">
@@ -72,9 +57,9 @@ export const Form = () => {
                 setCategoryId(event.target.value);
               }}
             >
-              {categories.map((option) => (
-                <MenuItem key={option.id} value={option.category}>
-                  {option.category}
+              {dataCategories.map((option) => (
+                <MenuItem key={option.id} value={option.id}>
+                  {option.title}
                 </MenuItem>
               ))}
             </TextField>
@@ -112,6 +97,7 @@ export const Form = () => {
               options={[]}
               renderInput={(params) => (
                 <TextField
+                  helperText="Jednotlivé suroviny potvrďte Entrem."
                   {...params}
                   label="suroviny"
                   placeholder="suroviny"
@@ -140,7 +126,14 @@ export const Form = () => {
               onChange={(event) => {
                 setTime(event.target.value);
               }}
-              sx={{ width: 100 }}
+              sx={{ width: 200 }}
+              slotProps={{
+                input: {
+                  endAdornment: (
+                    <InputAdornment position="end">min.</InputAdornment>
+                  )
+                }
+              }}
             />
             <Button onClick={handleClick} variant="contained">
               Odeslat
