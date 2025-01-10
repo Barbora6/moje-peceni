@@ -12,6 +12,19 @@ import { useState } from "react";
 import { supabase } from "../../context/utils";
 import { Check } from "@mui/icons-material";
 import { useAppContext } from "../../context/AppContext";
+import styled from "@emotion/styled";
+
+const VisuallyHiddenInput = styled("input")({
+  clip: "rect(0 0 0 0)",
+  clipPath: "inset(50%)",
+  height: 1,
+  overflow: "hidden",
+  position: "absolute",
+  bottom: 0,
+  left: 0,
+  whiteSpace: "nowrap",
+  width: 1
+});
 
 export const Form = () => {
   const difficultyOptions = ["snadné", "středně těžké", "těžké"];
@@ -24,15 +37,26 @@ export const Form = () => {
   const [inputValue, setInputValue] = useState("");
   const [description, setDescription] = useState("");
   const [time, setTime] = useState(0);
+  const [imageFile, setImageFile] = useState();
 
   const handleClick = async () => {
+    const { data } = await supabase.storage
+      .from("images")
+      .upload(`public/${Date.now()}`, imageFile);
+
+    const { data: publicUrlData } = supabase.storage
+      .from("images")
+      .getPublicUrl(data.path);
+    const image = publicUrlData.publicUrl;
+
     const recipe = {
       categoryId,
       title,
       difficulty,
       ingredients,
       description,
-      time
+      time,
+      image
     };
     const { status } = await supabase.from("recepies").insert(recipe);
     setStatus(status);
@@ -49,6 +73,18 @@ export const Form = () => {
           </Alert>
         ) : (
           <>
+            <Button
+              component="label"
+              role={undefined}
+              variant="contained"
+              tabIndex={-1}
+            >
+              Upload files
+              <VisuallyHiddenInput
+                type="file"
+                onChange={(event) => setImageFile(event.target.files[0])}
+              />
+            </Button>
             <TextField
               select
               label="kategorie"
