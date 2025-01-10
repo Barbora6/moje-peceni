@@ -1,5 +1,6 @@
 import {
   Alert,
+  Autocomplete,
   Button,
   Container,
   MenuItem,
@@ -16,11 +17,19 @@ export const Form = () => {
   const [status, setStatus] = useState();
   const [title, setTitle] = useState("");
   const [difficulty, setDifficulty] = useState(difficultyOptions[0]);
+  const [ingredients, setIngredients] = useState([]);
+  const [inputValue, setInputValue] = useState("");
   const [description, setDescription] = useState("");
   const [time, setTime] = useState(0);
 
   const handleClick = async () => {
-    const recipe = { title, difficulty, description, time };
+    const recipe = {
+      title,
+      difficulty,
+      ingredients,
+      description,
+      time
+    };
     const { status } = await supabase.from("recepies").insert(recipe);
     setStatus(status);
   };
@@ -52,6 +61,27 @@ export const Form = () => {
               multiline
               rows={4}
               defaultValue="Default Value"
+            />
+            {/* suroviny */}
+            <Autocomplete
+              value={ingredients}
+              onChange={(event, newValue) => {
+                setIngredients(newValue);
+              }}
+              inputValue={inputValue}
+              onInputChange={(event, newInputValue) => {
+                setInputValue(newInputValue);
+              }}
+              multiple
+              freeSolo
+              options={[]}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="suroviny"
+                  placeholder="suroviny"
+                />
+              )}
             />
             <TextField
               select
