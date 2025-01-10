@@ -15,6 +15,7 @@ export const Form = () => {
   const difficultyOptions = ["snadné", "středně těžké", "těžké"];
 
   const [status, setStatus] = useState();
+  const [categoryId, setCategoryId] = useState("");
   const [title, setTitle] = useState("");
   const [difficulty, setDifficulty] = useState(difficultyOptions[0]);
   const [ingredients, setIngredients] = useState([]);
@@ -24,6 +25,7 @@ export const Form = () => {
 
   const handleClick = async () => {
     const recipe = {
+      categoryId,
       title,
       difficulty,
       ingredients,
@@ -34,6 +36,25 @@ export const Form = () => {
     setStatus(status);
   };
 
+  const categories = [
+    {
+      id: 1,
+      category: "Bábovka"
+    },
+    {
+      id: 2,
+      category: "Muffiny"
+    },
+    {
+      id: 3,
+      category: "Vánoční cukroví"
+    },
+    {
+      id: 4,
+      category: "Dorty"
+    }
+  ];
+
   return (
     <Container maxWidth="sm">
       <Stack spacing={4} mt={4}>
@@ -43,6 +64,20 @@ export const Form = () => {
           </Alert>
         ) : (
           <>
+            <TextField
+              select
+              label="kategorie"
+              value={categoryId}
+              onChange={(event) => {
+                setCategoryId(event.target.value);
+              }}
+            >
+              {categories.map((option) => (
+                <MenuItem key={option.id} value={option.category}>
+                  {option.category}
+                </MenuItem>
+              ))}
+            </TextField>
             <TextField
               label="název"
               value={title}
