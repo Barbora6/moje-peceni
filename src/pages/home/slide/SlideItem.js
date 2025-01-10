@@ -28,7 +28,7 @@ const SlideItem = ({ image, title, description, isVisible }) => {
         }}
       />
       <div className="slide-img-wrapper">
-        <img src={`/pictures_slides/${image}`} alt="" loading="lazy" />
+        <img src={image} alt="" loading="lazy" />
       </div>
       <Box
         sx={{
