@@ -16,9 +16,11 @@ export const Form = () => {
   const [status, setStatus] = useState();
   const [title, setTitle] = useState("");
   const [difficulty, setDifficulty] = useState(difficultyOptions[0]);
+  const [description, setDescription] = useState("");
+  const [time, setTime] = useState(0);
 
   const handleClick = async () => {
-    const recipe = { title, difficulty };
+    const recipe = { title, difficulty, description, time };
     const { status } = await supabase.from("recepies").insert(recipe);
     setStatus(status);
   };
@@ -40,6 +42,17 @@ export const Form = () => {
               }}
               fullWidth
             />
+
+            <TextField
+              label="popis"
+              value={description}
+              onChange={(event) => {
+                setDescription(event.target.value);
+              }}
+              multiline
+              rows={4}
+              defaultValue="Default Value"
+            />
             <TextField
               select
               label="obtížnost"
@@ -55,6 +68,15 @@ export const Form = () => {
                 </MenuItem>
               ))}
             </TextField>
+
+            <TextField
+              label="čas"
+              value={time}
+              onChange={(event) => {
+                setTime(event.target.value);
+              }}
+              sx={{ width: 100 }}
+            />
             <Button onClick={handleClick} variant="contained">
               Odeslat
             </Button>
