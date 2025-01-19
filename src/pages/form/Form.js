@@ -1,7 +1,9 @@
 import {
   Alert,
   Autocomplete,
+  Box,
   Button,
+  CircularProgress,
   Container,
   InputAdornment,
   MenuItem,
@@ -38,8 +40,10 @@ export const Form = () => {
   const [description, setDescription] = useState("");
   const [time, setTime] = useState(0);
   const [imageFile, setImageFile] = useState();
+  const [loading, setLoading] = useState(false);
 
   const handleClick = async () => {
+    setLoading(true);
     const { data } = await supabase.storage
       .from("images")
       .upload(`public/${Date.now()}`, imageFile);
@@ -60,12 +64,19 @@ export const Form = () => {
     };
     const { status } = await supabase.from("recepies").insert(recipe);
     setStatus(status);
+    setLoading(false);
   };
 
   const { dataCategories } = useAppContext();
 
   return (
     <Container maxWidth="sm">
+      {loading && (
+        <Stack>
+          <CircularProgress />
+        </Stack>
+      )}
+
       <Stack spacing={4} mt={4}>
         {status === 201 ? (
           <Alert icon={<Check fontSize="inherit" />} severity="success">
