@@ -42,6 +42,8 @@ export const Form = () => {
   const [imageFile, setImageFile] = useState();
   const [loading, setLoading] = useState(false);
 
+  console.log(imageFile);
+
   const handleClick = async () => {
     setLoading(true);
     const { data } = await supabase.storage

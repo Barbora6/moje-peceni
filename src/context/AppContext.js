@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { createContext, useContext } from "react";
-import { dataRecepies } from "../data/data_recepies";
 import { supabase } from "./utils";
 
 const appContextDefaultValue = {
@@ -12,16 +11,23 @@ export const AppContext = createContext(appContextDefaultValue);
 
 export const AppProvider = ({ children }) => {
   const [categories, setCategories] = useState([]);
+  const [recepies, setRecepies] = useState([]);
 
   useEffect(() => {
     const getCategories = async () => {
       const { data } = await supabase.from("categories").select();
       setCategories(data);
     };
+    const getRecepies = async () => {
+      const { data } = await supabase.from("recepies").select();
+      setRecepies(data);
+    };
     getCategories();
+    getRecepies();
   }, []);
 
-  const value = { dataCategories: categories, dataRecepies };
+  const value = { dataCategories: categories, dataRecepies: recepies };
+  console.log(recepies);
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 };
