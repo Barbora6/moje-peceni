@@ -24,7 +24,9 @@ export const App = () => {
               <Route path="*" element={<Error />} />
               <Route path="/OneRecipe/:id" element={<OneRecipe />} />
               <Route path="/category/:id" element={<Category />} />
-              <Route path="/form" element={<Form />} />
+              {process.env.NODE_ENV === "development" && (
+                <Route path="/form" element={<Form />} />
+              )}
             </Route>
           </Routes>
         </BrowserRouter>

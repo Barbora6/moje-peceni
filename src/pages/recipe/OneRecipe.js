@@ -61,8 +61,17 @@ export const OneRecipe = () => {
       <Typography variant="h6" mt={4}>
         Popis:
       </Typography>
-      <Typography variant="body2" sx={{ color: "text.secondary" }}>
-        {description}
+      <Typography
+        variant="body2"
+        component="div"
+        sx={{
+          color: "text.secondary",
+          "& p": {
+            my: 2
+          }
+        }}
+      >
+        <div dangerouslySetInnerHTML={{ __html: description }} />
       </Typography>
     </Container>
   );

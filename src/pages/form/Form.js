@@ -8,13 +8,16 @@ import {
   InputAdornment,
   MenuItem,
   Stack,
-  TextField
+  TextField,
+  Typography
 } from "@mui/material";
 import { useState } from "react";
 import { supabase } from "../../context/utils";
 import { Check } from "@mui/icons-material";
 import { useAppContext } from "../../context/AppContext";
 import styled from "@emotion/styled";
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -71,6 +74,10 @@ export const Form = () => {
 
   const { dataCategories } = useAppContext();
 
+  const handleContentChange = (value) => {
+    setDescription(value);
+  };
+
   return (
     <Container maxWidth="sm">
       {loading && (
@@ -98,6 +105,10 @@ export const Form = () => {
                 onChange={(event) => setImageFile(event.target.files[0])}
               />
             </Button>
+            {imageFile && (
+              <Typography>Nahraný soubor: {imageFile.name}</Typography>
+            )}
+
             <TextField
               select
               label="kategorie"
@@ -121,15 +132,13 @@ export const Form = () => {
               fullWidth
             />
 
-            <TextField
-              label="popis"
+            <ReactQuill
               value={description}
-              onChange={(event) => {
-                setDescription(event.target.value);
+              onChange={handleContentChange}
+              placeholder="popis"
+              modules={{
+                toolbar: [["bold", "italic", "underline"], [{ list: "bullet" }]]
               }}
-              multiline
-              rows={4}
-              defaultValue="Default Value"
             />
             {/* suroviny */}
             <Autocomplete

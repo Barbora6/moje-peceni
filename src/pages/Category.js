@@ -16,14 +16,9 @@ export const Category = () => {
     return oneRecipe.id === parseInt(id);
   });
 
-  console.log(data);
-
   const categoryRecipes = dataRecepies.filter((oneRecipe) => {
     return oneRecipe.categoryId === id;
   });
-
-  console.log(categoryRecipes);
-  console.log(dataCategories, dataRecepies);
 
   const loading = dataRecepies.length === 0 || !data;
 
@@ -31,7 +26,7 @@ export const Category = () => {
     <Container maxWidth="lg">
       {loading ? (
         <Stack>
-          <CircularProgress />
+          <CircularProgress my={4} />
         </Stack>
       ) : (
         <Stack spacing={4} mt={4}>
