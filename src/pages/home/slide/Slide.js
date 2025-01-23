@@ -1,5 +1,5 @@
 import "./Slide.css";
-import SlideItem from "./SlideItem";
+import { SlideItem } from "./SlideItem";
 import { useEffect, useState } from "react";
 import { useAppContext } from "../../../context/AppContext";
 import { Box } from "@mui/material";
@@ -13,7 +13,7 @@ export const Slide = () => {
       setCurrentSlide((prev) =>
         prev === dataCategories.length - 1 ? 0 : prev + 1
       );
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(intervalId);
   }, [dataCategories.length]);

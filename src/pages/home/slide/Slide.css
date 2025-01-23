@@ -1,16 +1,13 @@
-
-
 .slide-img-wrapper {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 0;
+  width: 100%;
+  height: 93vh;
+  background-color: black;
+  z-index: 0;
 }
 
 .slide-img-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
-

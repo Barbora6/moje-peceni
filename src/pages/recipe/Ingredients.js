@@ -1,8 +1,6 @@
 import { Typography } from "@mui/material";
 
 export const Ingredients = ({ ingredients }) => {
-  const ingredientsArray = ingredients.split(",");
-
   return (
     <>
       <Typography variant="h6">Suroviny:</Typography>
@@ -12,8 +10,8 @@ export const Ingredients = ({ ingredients }) => {
         sx={{ color: "text.secondary" }}
       >
         <ul>
-          {ingredientsArray.map((item) => {
-            return <li key={item}>{item.trim()}</li>;
+          {ingredients.map((item) => {
+            return <li key={item}>{item}</li>;
           })}
         </ul>
       </Typography>

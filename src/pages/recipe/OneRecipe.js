@@ -1,4 +1,10 @@
-import { Container, CardMedia, Typography, Stack } from "@mui/material";
+import {
+  Container,
+  CardMedia,
+  Typography,
+  Stack,
+  CircularProgress
+} from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import { useParams } from "react-router-dom";
 import { Ingredients } from "./Ingredients";
@@ -12,6 +18,19 @@ export const OneRecipe = () => {
   const data = dataRecepies.find((oneRecipe) => {
     return oneRecipe.id === parseInt(id);
   });
+
+  console.log(dataRecepies, data);
+
+  const loading = dataRecepies.length === 0 || !data;
+  if (loading) {
+    return (
+      <Container maxWidth="md">
+        <Stack>
+          <CircularProgress />
+        </Stack>
+      </Container>
+    );
+  }
 
   const { title, image, description, difficulty, time, ingredients } = data;
 
@@ -32,7 +51,7 @@ export const OneRecipe = () => {
       </Stack>
       <Grid container spacing={4}>
         <Grid size={7}>
-          <CardMedia component="img" width="100%" src={`/pictures/${image}`} />
+          <CardMedia component="img" width="100%" src={image} />
         </Grid>
         <Grid size={5}>
           <Ingredients ingredients={ingredients} />
@@ -42,7 +61,16 @@ export const OneRecipe = () => {
       <Typography variant="h6" mt={4}>
         Popis:
       </Typography>
-      <Typography variant="body2" sx={{ color: "text.secondary" }}>
+      <Typography
+        variant="body2"
+        component="div"
+        sx={{
+          color: "text.secondary",
+          "& p": {
+            my: 2
+          }
+        }}
+      >
         <div dangerouslySetInnerHTML={{ __html: description }} />
       </Typography>
     </Container>

@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 
-const SlideItem = ({ image, title, paragraph, isVisible }) => {
+export const SlideItem = ({ image, title, description, isVisible }) => {
   return (
     <Box
       position="absolute"
@@ -28,7 +28,7 @@ const SlideItem = ({ image, title, paragraph, isVisible }) => {
         }}
       />
       <div className="slide-img-wrapper">
-        <img src={`/pictures_slides/${image}`} alt="" loading="lazy" />
+        <img src={image} alt="" loading="lazy" />
       </div>
       <Box
         sx={{
@@ -48,10 +48,7 @@ const SlideItem = ({ image, title, paragraph, isVisible }) => {
         >
           {title}
         </Typography>
-        {/* <Typography>{paragraph}</Typography> */}
       </Box>
     </Box>
   );
 };
-
-export default SlideItem;
