@@ -1,7 +1,6 @@
 import {
   Alert,
   Autocomplete,
-  Box,
   Button,
   CircularProgress,
   Container,
