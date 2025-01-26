@@ -496,8 +496,7 @@ export const dataRecepies = [
     description:
       "<p>Troubu předehřejte na teplotu 180 °C. Dortovou formu vyložte pečícím papírem.</p><p>Do mísy kuchyňského robotu prosejte mouku a přidejte cukr, koření, prášek do pečiva, sodu a sůl. Použijte třecí nástavec a všechny suché ingredience promíchejte. Přihoďte na kostky nakrájené máslo a míchejte nízkou rychlostí, až vznikne drobenka pískové konzistence.</p><p>Postupně přidávejte vejce a melasu. Nakonec vmíchejte mléko, pomerančovou šťávu a kůru. Již jen stěrkou přimíchejte kousky kandovaného zázvoru a vlijte těsto do formy. Pečte 30 minut. Zkontrolujte těsto špejlí. Hotový korpus nechte úplně vychladnout.</p><p>Všechny dobře vychlazené suroviny na krém vyšlehejte do husté konzistence. Korpus prokrojte 3x až 4x, jeho patra pak spojte krémem. Boky dortu rovněž potřete krémem a uhlaďte stěrkou. Dort ozdobte perníčky.</p>",
     ingredients:
-      "Korpus: 350 g hladká mouka, 330 g hnědý cukr, 2 lžička zázvor - mletý, 2 lžička skořice - mletá, 1 lžička hřebíček mletý, 1 lžíce prášek do pečiva, 1 lžička jedlá soda, 0,50 lžička sůl, 200 g máslo studené, 3 ks vejce, 2 lžíce melasa, 200 ml mléko, 1 lžíce pomerančová šťáva a jemně nastrouhaná kůra, 3 lžíce kandovaný zázvor, medové perníčky na odzdobení",
-    //cream: '400 g krémový sýr Philadephia, 0,50 lžička skořice, 400 ml smetana ke šlehání, 200 g moučkový cukr',
+      "Korpus: 350 g hladká mouka, 330 g hnědý cukr, 2 lžička zázvor - mletý, 2 lžička skořice - mletá, 1 lžička hřebíček mletý, 1 lžíce prášek do pečiva, 1 lžička jedlá soda, 0,50 lžička sůl, 200 g máslo studené, 3 ks vejce, 2 lžíce melasa, 200 ml mléko, 1 lžíce pomerančová šťáva a jemně nastrouhaná kůra, 3 lžíce kandovaný zázvor, medové perníčky na odzdobení. Krém: '400 g krémový sýr Philadephia, 0,50 lžička skořice, 400 ml smetana ke šlehání, 200 g moučkový cukr'",
     difficulty: "snadné",
     time: 90
   },

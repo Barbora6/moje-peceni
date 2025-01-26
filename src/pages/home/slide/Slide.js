@@ -19,7 +19,7 @@ export const Slide = () => {
   }, [dataCategories.length]);
 
   return (
-    <Box position="relative">
+    <Box position="relative" height="93vh">
       {dataCategories.map((item, index) => {
         return (
           <SlideItem
