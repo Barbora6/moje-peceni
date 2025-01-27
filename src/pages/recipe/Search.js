@@ -20,9 +20,16 @@ export const Search = () => {
   });
 
   return (
-    <div>
+    <Box
+      sx={{
+        position: "absolute",
+        left: "50%",
+        bottom: 80,
+        transform: "translateX(-50%)",
+        zIndex: 100
+      }}
+    >
       <Autocomplete
-        fullWidth
         filterOptions={filterOptions}
         getOptionLabel={(option) => option.title}
         value={searchRecipe}
@@ -37,8 +44,15 @@ export const Search = () => {
         options={dataRecepies}
         renderInput={(params) => (
           <TextField
+            sx={{
+              width: 500,
+              backgroundColor: "white",
+              color: "white",
+              border: "2px solid white",
+              borderRadius: "8px"
+            }}
             {...params}
-            label="kategorie"
+            label="Vyhledávání receptů"
             placeholder="Vyhledávání receptů..."
           />
         )}
@@ -51,6 +65,6 @@ export const Search = () => {
           );
         }}
       />
-    </div>
+    </Box>
   );
 };

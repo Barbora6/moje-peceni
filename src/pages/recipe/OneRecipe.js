@@ -19,8 +19,6 @@ export const OneRecipe = () => {
     return oneRecipe.id === parseInt(id);
   });
 
-  console.log(dataRecepies, data);
-
   const loading = dataRecepies.length === 0 || !data;
   if (loading) {
     return (
@@ -50,10 +48,10 @@ export const OneRecipe = () => {
         </Stack>
       </Stack>
       <Grid container spacing={4}>
-        <Grid size={7}>
+        <Grid size={12}>
           <CardMedia component="img" width="100%" src={image} />
         </Grid>
-        <Grid size={5}>
+        <Grid size={7}>
           <Ingredients ingredients={ingredients} />
         </Grid>
       </Grid>

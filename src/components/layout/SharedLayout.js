@@ -1,7 +1,15 @@
 import { Outlet } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Container,
+  Link,
+  Toolbar,
+  Typography
+} from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
 
 export const SharedLayout = () => {
   return (
@@ -10,10 +18,19 @@ export const SharedLayout = () => {
         <AppBar position="static">
           <Container maxWidth="lg" disableGutters>
             <Toolbar>
-              <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                {" "}
-                MojePečení
-              </Typography>
+              <Box sx={{ flexGrow: 1 }}>
+                <Link component={RouterLink} to="/">
+                  <Typography
+                    variant="h4"
+                    component="div"
+                    sx={{ color: "white" }}
+                    display={"inline-block"}
+                  >
+                    {" "}
+                    MojePečení
+                  </Typography>
+                </Link>
+              </Box>
               <Navbar />
             </Toolbar>
           </Container>

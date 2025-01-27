@@ -15,11 +15,13 @@ export const AppProvider = ({ children }) => {
 
   useEffect(() => {
     const getCategories = async () => {
-      const { data } = await supabase.from("categories").select();
+      const { data } = await supabase.from("categories").select().order("id");
       setCategories(data);
+      console.log(data);
     };
+
     const getRecepies = async () => {
-      const { data } = await supabase.from("recepies").select();
+      const { data } = await supabase.from("recepies").select().order("id");
       setRecepies(data);
     };
     getCategories();

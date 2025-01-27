@@ -4,7 +4,7 @@ export const SlideItem = ({ image, title, description, isVisible }) => {
   return (
     <Box
       position="absolute"
-      height={800}
+      height="100%"
       sx={{
         position: "absolute",
         top: "0px",
@@ -32,6 +32,8 @@ export const SlideItem = ({ image, title, description, isVisible }) => {
       </div>
       <Box
         sx={{
+          width: "100%",
+          textAlign: "center",
           position: "absolute",
           top: "50%",
           left: "50%",

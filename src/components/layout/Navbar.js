@@ -8,13 +8,6 @@ export const Navbar = () => {
   return (
     <header>
       <Stack direction={"row"} gap={4}>
-        <Link
-          component={RouterLink}
-          to="/"
-          sx={{ color: "white", fontSize: 22 }}
-        >
-          Domů
-        </Link>
         {dataCategories.map(({ id, title }) => {
           return (
             <Link
