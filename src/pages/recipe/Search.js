@@ -34,7 +34,7 @@ export const Search = () => {
         getOptionLabel={(option) => option.title}
         value={searchRecipe}
         onChange={(event, newValue) => {
-          //   setSearchRecipe(newValue);
+          setSearchRecipe(newValue);
           push(`/OneRecipe/${newValue.id}`);
         }}
         inputValue={inputValue}
