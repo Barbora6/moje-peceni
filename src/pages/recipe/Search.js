@@ -24,7 +24,7 @@ export const Search = () => {
       sx={{
         position: "absolute",
         left: "50%",
-        bottom: 80,
+        bottom: 140,
         transform: "translateX(-50%)",
         zIndex: 100
       }}
