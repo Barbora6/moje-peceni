@@ -33,12 +33,12 @@ export const Search = () => {
         filterOptions={filterOptions}
         getOptionLabel={(option) => option.title}
         value={searchRecipe}
-        onChange={(event, newValue) => {
+        onChange={(newValue) => {
           setSearchRecipe(newValue);
           push(`/OneRecipe/${newValue.id}`);
         }}
         inputValue={inputValue}
-        onInputChange={(event, newInputValue) => {
+        onInputChange={(newInputValue) => {
           setInputValue(newInputValue);
         }}
         options={dataRecepies}
