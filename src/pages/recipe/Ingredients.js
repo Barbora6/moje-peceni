@@ -7,7 +7,7 @@ export const Ingredients = ({ ingredients }) => {
       <Typography
         component="div"
         variant="body2"
-        sx={{ color: "text.secondary" }}
+        sx={{ color: "text.secondary", pl: 2, mt: 2 }}
       >
         <ul>
           {ingredients.map((item) => {

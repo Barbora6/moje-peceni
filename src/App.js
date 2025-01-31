@@ -11,10 +11,17 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { AppProvider } from "./context/AppContext";
 import { Form } from "./pages/form/Form";
+import { createTheme, ThemeProvider } from "@mui/material";
 
 export const App = () => {
+  const theme = createTheme({
+    palette: {
+      primary: { main: "#2642A6" }
+    }
+  });
+
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppProvider>
         <BrowserRouter>
@@ -31,6 +38,6 @@ export const App = () => {
           </Routes>
         </BrowserRouter>
       </AppProvider>
-    </>
+    </ThemeProvider>
   );
 };
